@@ -18,12 +18,12 @@ html{
 
 /*------------------------------HEADER---------------------------------*/
 
-/*layout grid*/
+/* layout grid
 .bodyGridContainer{
     display: grid;
     grid-template-rows: 15.1rem 1fr 46rem;
     grid-template-columns: 100%;
-}
+} */
 
 
 /*start logoTitleCheckInAvatarcontainer class*/
@@ -394,173 +394,152 @@ html{
 }
 /*End Lottery img class*/
 /*End gamesSectionTow class*/
+/*------------------------------main-checkIn------------------------------*/
 
-/*------------------------------MAIN-PLAY------------------------------*/
-.play__firstTitle{
-    width: auto;
-    height: 10rem;
-    background: url(multimedia/img/clover.jpg);
-    color: #ffffff;
-    font-family: "PTSerif-Bold";
-    font-size: 5rem;
-    text-align: center;
-    text-shadow: #000000 .5rem .5rem .4rem;
-    margin: 1rem 0;
-    padding: 2rem;
-}
-/*Start play__container class*/
-.play__container{
-    margin: 5% 15%;               /*+++++++++*/
-    background-color: #EDE6DB;
-}
-/*End play__container class*/
-/*Start play__secondTitle class*/
-.play__secondTitle{
-    width: auto;
-    height: 7rem;
-    font-family: "PTSerif-Bold";
-    font-size: 3rem;
-    text-align: center;
-    padding: 1rem;
-}
-/*End play__secondTitle class*/
-/*Start play__numberContainer class*/
-.play__numberContainer{
-    width: 40rem;
-    height: auto;
-    margin: auto;
-    padding: 2.%;
-    background-color: #4677c4;
-    border: solid .2rem #000000;
-
-}
-.play__number{
-    cursor: pointer;
-    width: 4rem;
-    height: 3rem;
-    font-size: 1.7rem;
-    box-shadow: .5rem .5rem 1rem -.3rem #00000070;
-
-}
-.play__number:active{
-    background-color: #fecc45;
-}
-/*End play__numberContainer class*/
-/*Start play__firstSection class*/
-.play__firstSection{
-    width: 80%;               /*+++++++++++++++++++++++++*/
-    height: 7rem;
-    display: grid;
-    border: solid .2rem #000000;
-    margin: 2rem auto;
-    font-size: 1.7rem;
-    grid-template-columns: 1fr 1fr 120px 150px;
-    grid-template-rows: 3rem;
-}
-.play__firstSectionText1{
-    margin-left: 2rem;
-    padding-top: .6rem;
-    grid-column-start: span 2;
-}
-.play__firstSectionText2{
-    padding-top: .6rem;
-}
-.play__firstSectionText3{
-    margin-left: 2rem;
-    grid-column-start: span 2;
-}
-.play__firstSectionLine{
-    width: 60rem;
-    height: .3rem;
-    margin-left: 1rem;
-    background-color: #000000;
-    grid-column-start: span 3;
-}
-.play__firstSectionButton{
-    margin-top: 1.8rem;
-    margin-left: 1rem;
-    grid-row-start: span 3;
-}
-.play__firstSectionButton{
-    display: block;
-    box-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
-    border-radius: .8rem;
-    font-family: "PTSerif-Bold";
-    text-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #fff;
-    text-decoration: none;
-    width: 10.7rem;
-    height: 3rem;
-    padding: .5rem;
-    background-color: #ff6f23;
-    cursor: pointer;
-}
-.play__firstSectionButton:hover{
-    margin-top: 1.2rem;
-    text-shadow: rgb(20 20 20 / 40%) .2rem .3rem .3rem;
-    box-shadow: rgb(20 20 20 / 40%) .2rem .3rem .3rem;
-    background-color: #76be18;
-    border-radius: 1rem;
-    display: block;
-    font-size: 1.6rem;
-    width: 11.7rem;
-    height: 4rem;
-    padding: .8rem;
-    transition: all .5s;
-}
-/*End play__firstSection class*/
-/*Start play__secondSection class*/
-.play__secondSection{
-    width: 80%;         /*++++++++++++++++++++++++*/
-    height: 7rem;
+.mainCheckIn{
     display: flex;
-    border: solid .2rem #000000;
-    margin: 2rem auto;
-    font-size: 1.7rem;
-    /* padding-top: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50.4em;
+    background: url(multimedia/img/bolillasdeloteriadoradas2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.play__secondSectionText1{
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-.play__secondSectionNumberContainer{
-    margin-left: 2rem;
-    margin-top: 1.5rem;
-}
-.play__secondSectionNumber{
-    cursor: pointer;
-    width: 4rem;
-    height: 3rem;
-    font-size: 1.7rem;
-    box-shadow: .5rem .5rem 1rem -.3rem #00000070;
-}
-.play__secondSectionText2{
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-.play__secondSectionButton{
-    display: block;
-    box-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
-    border-radius: .8rem;
+.formCheckIn{
+    width: 40em;
+    background: #24303c;
+    padding: 3em;
+    border-radius: .4em;
     font-family: "PTSerif-Bold";
-    text-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #fff;
-    text-decoration: none;
-    width: 10.7rem;
-    height: 3rem;
-    padding: .5rem;
-    background-color: #ff6f23;
-    cursor: pointer;
+    color: #ffffff;
+    box-shadow: #000 .7em 1.3em 3.7em;
 }
-/*End play__secondSection class*/
 
-/*------------------------------MAIN-RESULT------------------------------*/
-/*Start mainResult__title class*/
-.mainResult__title{
+.formCheckIn__textOne{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.formCheckIn__data{
+    display: block;
+    width: 34rem;
+    background: #24303c;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin-bottom: 1.6rem;
+    border: solid .1rem #1f53c5;
+    font-family: "PTSerif-Bold"; 
+    color: #fff;
+}
+.formCheckIn__button{
+    width: 100%;
+    cursor: pointer;
+    background: #1f53c5;
+    border: none;
+    padding: 1.2rem;
+    color: #ffffff;
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+}
+.formCheckIn__button:hover{
+    background-color: #2868f3;
+}
+.formCheckIn__button:active{
+    background-color: #1b3e8b;
+}
+.formCheckIn__logInContainer{
+    text-align: center;
+}
+.formCheckIn__textTwo{
+    height: 4em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.formCheckIn__textTwo:hover{
+    text-decoration: underline;
+    color: #82A284;
+}
+
+/*------------------------------main-logIn--------------------------------*/
+
+.mainLogIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50.4em;
+    background: url(multimedia/img/bolillasdeloteriadoradas2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formLogIn{
+    width: 40em;
+    background: #24303c;
+    padding: 3em;
+    border-radius: .4em;
+    font-family: "PTSerif-Bold";
+    color: #ffffff;
+    box-shadow: #000 .7em 1.3em 3.7em;
+}
+
+.formLogIn__textOne{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.formLogIn__data{
+    display: block;
+    width: 34rem;
+    background: #24303c;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin-bottom: 1.6rem;
+    border: solid .1rem #1f53c5;
+    font-family: "PTSerif-Bold"; 
+    color: #fff;
+}
+.formLogIn__button{
+    width: 100%;
+    cursor: pointer;
+    background: #1f53c5;
+    border: none;
+    padding: 1.2rem;
+    color: #ffffff;
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+}
+.formLogIn__button:hover{
+    background-color: #2868f3;
+}
+.fformLogIn__button:active{
+    background-color: #1b3e8b;
+}
+.formLogIn__logInContainer{
+    text-align: center;
+}
+.formLogIn__textTwo{
+    height: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.formLogIn__textThree{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.formLogIn__textThree:hover{
+    text-decoration: underline;
+    color: #82A284;
+}
+
+/*------------------------------MAIN-playQuini6------------------------------*/
+/*Start mainPlayQuini6__title class*/
+.mainPlayQuini6__title{
     width: auto;
     height: 10rem;
     background: url(multimedia/img/clover.jpg);
@@ -572,7 +551,383 @@ html{
     margin: 1rem 0;
     padding: 2rem;
 }
-/*End mainResult__title class*/
+.mainPlayQuini6__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayQuini6__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayQuini6__title class*/
+
+/*------------------------------MAIN-playBrinco------------------------------*/
+/*Start mainPlayQuini6__title class*/
+.mainPlayBrinco__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlayBrinco__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayBrinco__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayBrinco__title class*/
+
+/*------------------------------MAIN-playLottoPlus------------------------------*/
+/*Start mainPlayLottoPlus__title class*/
+.mainPlayLottoPlus__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlayLottoPlus__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayLottoPlus__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayLottoPlus__title class*/
+
+/*------------------------------MAIN-playNationalLottery------------------------------*/
+/*Start mainPlayNationalLottery__title class*/
+.mainPlayNationalLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlayNationalLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayNationalLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayNationalLottery__title class*/
+
+/*------------------------------MAIN-playCityLottery------------------------------*/
+/*Start mainPlayCityLottery__title class*/
+.mainPlayCityLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlayCityLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayCityLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayCityLottery__title class*/
+
+/*------------------------------MAIN-playCordobaLottery------------------------------*/
+/*Start mainPlayCordobaLottery__title class*/
+.mainPlayCordobaLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlayCordobaLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlayCordobaLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainPlayCordobaLottery__title class*/
+
+/*------------------------------MAIN-playSantaFeLottery------------------------------*/
+/*Start mainPlaySantaFeLottery__title class*/
+.mainPlaySantaFeLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainPlaySantaFeLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainPlaySantaFeLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainPlaySantaFeLottery__title class*/
+
+/*------------------------------MAIN-ResultQuini6------------------------------*/
+/*Start mainResultQuini6__title class*/
+.mainResultQuini6__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultQuini6__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultQuini6__img{
+    border-radius: 1em;
+}
+
+/*End mainResultQuini6__title class*/
+
+/*------------------------------MAIN-ResultBrinco------------------------------*/
+/*Start mainResultBrinco__title class*/
+.mainResultBrinco__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultBrinco__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultBrinco__img{
+    border-radius: 1em;
+}
+
+/*End mainResultBrinco__title class*/
+
+/*------------------------------MAIN-ResultLottoPlus------------------------------*/
+/*Start mainResultLottoPlus__title class*/
+.mainResultLottoPlus__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultLottoPlus__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultLottoPlus__img{
+    border-radius: 1em;
+}
+
+/*End mainResultLottoPlus__title class*/
+
+/*------------------------------MAIN-ResultNationalLottery------------------------------*/
+/*Start mainResultNationalLottery__title class*/
+.mainResultNationalLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultNationalLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultNationalLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainResultNationalLottery__title class*/
+
+/*------------------------------MAIN-ResultCityLottery------------------------------*/
+/*Start mainResultCityLottery__title class*/
+.mainResultCityLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultCityLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultCityLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainResultCityLottery__title class*/
+
+/*------------------------------MAIN-ResultCordobaLottery------------------------------*/
+/*Start mainResultCordobaLottery__title class*/
+.mainResultCordobaLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultCordobaLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultCordobaLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainResultCordobaLottery__title class*/
+
+/*------------------------------MAIN-ResultSantaFeLottery------------------------------*/
+/*Start mainResultSantaFeLottery__title class*/
+.mainResultSantaFeLottery__title{
+    width: auto;
+    height: 10rem;
+    background: url(multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.mainResultSantaFeLottery__imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50em;
+    background: url(multimedia/img/matrixGif.gif);
+}
+.mainResultSantaFeLottery__img{
+    border-radius: 1em;
+}
+
+/*End mainResultSantaFeLottery__title class*/
 
 /*------------------------------MAIN-INSTITUCIONAL------------------------------*/
 

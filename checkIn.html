@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Start archive style.css-->
+	<link rel="stylesheet" href="style.css">
+	<!--End archive style.css-->
+	<!--Start tab icon-->
+	<link rel="shortcut icon" href="multimedia/img/logo.ico" type="image/x-icon">
+	<!--End tab icon-->
+	<!--Start CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!--End CDN-->
+	<!--Start tab title-->
+	<title>TuMejorJugada</title>
+	<!--Start tab title-->
+</head>
+
+<body class="bodyGridContainer">
+	<!--Start header-->
+	<header class="header">
+		<!--Start headerSectionFirst container-->
+		<div class="headerSectionFirst">
+			<!--Etiqueta <a> como contenedor de una <img> linquea la imagen a un enlace relativo o absoluto-->
+			<!--Start logo-->
+			<div class="logoContainer">
+				<a href="index.html">
+					<img class="headerSectionFirst__logoImg" src="multimedia/img/logo.png" alt="Logo-TuMejorJugada">
+				</a>
+			</div>
+			<!--End logo-->
+			<!--Start title-->
+			<div class="titleContainer">
+				<a href="index.html">
+					<img src="multimedia/img/tumejorjugada.png" alt="Titulo-Tu Mejor Jugada">
+				</a>
+			</div>
+			<!--End title-->
+			<!--Start checkIn and logIn zone-->
+			<div class="headerSectionFirst__userZone">
+				<!--Start avatar-->
+				<div class="containerAvatar">
+					<img class="avatar" src="multimedia/img/avatar.png" alt="Avatar-Inicio de sesion">
+				</div>
+				<!--End avatar-->
+				<ul class="userZone__checkInAndLogIn">
+					<li>
+						<a class="userZone__checkIn" href="checkIn.html">Registrarse</a>
+					</li>
+					<li>
+						<a class="userZone__logIn" href="logIn.html">Iniciar Sesion</a>
+					</li>
+				</ul>
+			</div>
+			<!--End checkIn and logIn zone-->
+		</div>
+		<!--End headerSectionFirst container-->
+	</header>
+	<!--End header-->
+
+	<!--Start main zone-->
+	<main class="mainCheckIn">
+		<div class="animate__animated animate__flipInX">
+		<form class="formCheckIn" action="index.html">
+			<h4 class="formCheckIn__textOne">Formulario de Registro</h4>
+			<input class="formCheckIn__data" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre y Apellido">
+			<input class="formCheckIn__data" type="email" name="Nombre" id="Nombre" placeholder="Ingrese su Correo">
+			<input class="formCheckIn__data" type="password" name="Nombre" id="Nombre" placeholder="Ingrese una Contraseña">
+			<button class="formCheckIn__button" type="submit">Registrarse</button>
+			<div class="formCheckIn__logInContainer">
+				<a class="formCheckIn__textTwo" href="logIn.html">Iniciar Sesion</a>
+			</div>
+		</form>
+		</div>
+	</main>
+	<!--End main zone-->
+</body>
+
+</html>
