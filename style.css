@@ -401,7 +401,7 @@ html{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50.4em;
+    height: 55em ;
     background: url(multimedia/img/bolillasdeloteriadoradas2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -470,7 +470,7 @@ html{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50.4em;
+    height: 55em;
     background: url(multimedia/img/bolillasdeloteriadoradas2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -541,7 +541,7 @@ html{
 /*Start mainPlayQuini6__title class*/
 .mainPlayQuini6__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -561,6 +561,8 @@ html{
 }
 .mainPlayQuini6__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayQuini6__title class*/
@@ -569,7 +571,7 @@ html{
 /*Start mainPlayQuini6__title class*/
 .mainPlayBrinco__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -589,6 +591,8 @@ html{
 }
 .mainPlayBrinco__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayBrinco__title class*/
@@ -597,7 +601,7 @@ html{
 /*Start mainPlayLottoPlus__title class*/
 .mainPlayLottoPlus__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -617,6 +621,8 @@ html{
 }
 .mainPlayLottoPlus__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayLottoPlus__title class*/
@@ -625,7 +631,7 @@ html{
 /*Start mainPlayNationalLottery__title class*/
 .mainPlayNationalLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -645,6 +651,8 @@ html{
 }
 .mainPlayNationalLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayNationalLottery__title class*/
@@ -653,7 +661,7 @@ html{
 /*Start mainPlayCityLottery__title class*/
 .mainPlayCityLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -673,6 +681,8 @@ html{
 }
 .mainPlayCityLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayCityLottery__title class*/
@@ -681,7 +691,7 @@ html{
 /*Start mainPlayCordobaLottery__title class*/
 .mainPlayCordobaLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -701,6 +711,8 @@ html{
 }
 .mainPlayCordobaLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlayCordobaLottery__title class*/
@@ -709,7 +721,7 @@ html{
 /*Start mainPlaySantaFeLottery__title class*/
 .mainPlaySantaFeLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -729,6 +741,8 @@ html{
 }
 .mainPlaySantaFeLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainPlaySantaFeLottery__title class*/
@@ -737,7 +751,7 @@ html{
 /*Start mainResultQuini6__title class*/
 .mainResultQuini6__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -757,6 +771,8 @@ html{
 }
 .mainResultQuini6__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultQuini6__title class*/
@@ -765,7 +781,7 @@ html{
 /*Start mainResultBrinco__title class*/
 .mainResultBrinco__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -785,6 +801,8 @@ html{
 }
 .mainResultBrinco__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultBrinco__title class*/
@@ -793,7 +811,7 @@ html{
 /*Start mainResultLottoPlus__title class*/
 .mainResultLottoPlus__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -813,6 +831,8 @@ html{
 }
 .mainResultLottoPlus__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultLottoPlus__title class*/
@@ -821,7 +841,7 @@ html{
 /*Start mainResultNationalLottery__title class*/
 .mainResultNationalLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -841,6 +861,8 @@ html{
 }
 .mainResultNationalLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultNationalLottery__title class*/
@@ -849,7 +871,7 @@ html{
 /*Start mainResultCityLottery__title class*/
 .mainResultCityLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -869,6 +891,8 @@ html{
 }
 .mainResultCityLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultCityLottery__title class*/
@@ -877,7 +901,7 @@ html{
 /*Start mainResultCordobaLottery__title class*/
 .mainResultCordobaLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -897,6 +921,8 @@ html{
 }
 .mainResultCordobaLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultCordobaLottery__title class*/
@@ -905,7 +931,7 @@ html{
 /*Start mainResultSantaFeLottery__title class*/
 .mainResultSantaFeLottery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -925,6 +951,8 @@ html{
 }
 .mainResultSantaFeLottery__img{
     border-radius: 1em;
+    width: auto;
+    height: 30em;
 }
 
 /*End mainResultSantaFeLottery__title class*/
@@ -934,7 +962,7 @@ html{
 /*Start institutional__title class*/
 .institutional__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -1007,7 +1035,7 @@ html{
 
 .soporte__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
@@ -1083,7 +1111,7 @@ html{
 /*------------------------------MAIN GALLERY------------------------------*/
 .gallery__title{
     width: auto;
-    height: 10rem;
+    height: auto;
     background: url(multimedia/img/clover.jpg);
     color: #ffffff;
     font-family: "PTSerif-Bold";
