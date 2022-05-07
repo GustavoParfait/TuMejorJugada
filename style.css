@@ -87,33 +87,10 @@ html{
 /*Start Navigable zone class*/
 /*---------------------------------------------------------------------------nav*/
 .bg-new{
-    display: flex;
-    align-items: center;
-    height: 3em;
     background-color: #FFC300;
-    font-size: 1.5rem;
-}
-.navbar-new{
-padding-top: .3125rem;
-padding-bottom: .3125rem;
-margin-right: 1rem;
-font-size: 1.5rem;
-text-decoration: none;
-white-space: nowrap;
-color: #000;
-}
-.dropdown-itemNew{
-display: block;
-width: 100%;
-padding: 0.25rem 1rem;
-clear: both;
-font-weight: 400;
-color: #212529;
-text-align: inherit;
-text-decoration: none;
-white-space: nowrap;
-background-color: #FFC300;
-border: 0;
+    font-family: "PTSerif-Bold";
+    text-shadow: .1em .2em .2em rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
 }
 /*---------------------------------------------------------------------------nav*/
 
