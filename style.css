@@ -14,6 +14,10 @@ html{
     font-family: 'PTSerif-Bold';
     src: url(fonts/PT_Serif/PTSerif-Bold.ttf)
 }
+@font-face{
+    font-family: "Koulen-Regular";
+    src: url(fonts/Koulen/Koulen-Regular.ttf)
+}
 /*End reset*/
 
 /*------------------------------HEADER---------------------------------*/
@@ -88,9 +92,31 @@ html{
 /*---------------------------------------------------------------------------nav*/
 .bg-new{
     background-color: #FFC300;
-    font-family: "PTSerif-Bold";
-    text-shadow: .1em .2em .2em rgba(0, 0, 0, 0.4);
-    font-size: 1.2rem;
+}
+.navbar-dark .navbar-brand{
+    font-family: Koulen-Regular;
+    font-size: 2.5rem;
+    text-shadow: .1em .2em .3em black;
+}
+.navbar-dark .navbar-nav .nav-link{
+    /* font-family: "PTSerif-Bold"; */
+    /* text-shadow: .1em .2em .2em rgba(0, 0, 0, 0.4); */
+    font-family: Koulen-Regular;
+    font-size: 2.5rem;
+    /* text-shadow: .1em .2em .2em black; */
+}
+.dropdown-item{
+    color: #ffffff !important;
+    text-shadow: .1em .2em .2em black;
+    font-family: Koulen-Regular;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.dropdown-menu{
+    background-color: #cfa92f!important;
+}
+.navbar-toggler{
+    font-size: 2rem !important;
 }
 /*---------------------------------------------------------------------------nav*/
 
