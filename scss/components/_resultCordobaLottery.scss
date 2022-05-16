@@ -1,0 +1,33 @@
+/*------------------------------MAIN-ResultCordobaLottery------------------------------*/
+/*Start mainResultCordobaLottery__title class*/
+@import '../base/variables';
+main{
+    .mainResultCordobaLottery__title{
+        width: auto;
+        height: auto;
+        background: url(../multimedia/img/clover.jpg);
+        color: #ffffff;
+        font-family: $fonst1;
+        font-size: 5rem;
+        text-align: center;
+        text-shadow: #000000 .5rem .5rem .4rem;
+        margin: 1rem 0;
+        padding: 2rem;
+    }
+    .mainResultCordobaLottery__imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 50em;
+        background: url(../multimedia/img/matrixGif.gif);
+        a{
+            .mainResultCordobaLottery__img{
+                border-radius: 1em;
+                width: auto;
+                height: 30em;
+            }
+        }
+    }
+}
+/*End mainResultCordobaLottery__title class*/

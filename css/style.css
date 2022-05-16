@@ -1,0 +1,1712 @@
+/*Star reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*set root font-size from 16px to 10px and use REM*/
+html {
+  font-size: 62.5%;
+}
+
+/*End reset*/
+/*my font*/
+@font-face {
+  src: url(../../../TuMejorJugada/fonts/PT_Serif/PTSerif-Bold.ttf);
+  font-family: "PT Serif", serif;
+}
+@font-face {
+  src: url(../../../TuMejorJugada/fonts/Koulen/Koulen-Regular.ttf);
+  font-family: "Koulen", cursive;
+}
+/*------------------------------HEADER---------------------------------*/
+header .headerSectionFirst {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #5463ff;
+}
+header .headerSectionFirst div a .headerSectionFirst__logoImg {
+  width: 10em;
+  height: auto;
+}
+header .headerSectionFirst .titleContainer a img {
+  width: 28em;
+  height: auto;
+  margin: 1em 0;
+}
+header .headerSectionFirst .headerSectionFirst__userZone div .avatar {
+  width: 6em;
+  height: auto;
+  margin: 0 5.5em;
+}
+header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn {
+  display: flex;
+  list-style: none;
+}
+header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li a {
+  text-decoration: none;
+  font-family: "PTSerif-Bold";
+  font-size: 1.3rem;
+  color: #ECECEC;
+  padding: 0.5rem;
+}
+header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li a:hover {
+  color: chocolate;
+  transition: 1s;
+}
+header .bg-new {
+  background-color: #FFC300;
+}
+header .bg-new div .navbar-brand {
+  font-family: fantasy;
+  font-size: 2.5rem;
+  text-shadow: 0.1em 0.2em 0.3em black;
+}
+header .bg-new div div {
+  font-family: fantasy;
+  font-size: 2rem;
+}
+header .bg-new div div ul li .dropdown-menu {
+  background-color: #cfa92f;
+  font-family: fantasy;
+  font-size: 1.7rem;
+  text-shadow: 0.1em 0.2em 0.2em black;
+}
+header .bg-new div div ul li .dropdown-menu li .dropdown-item {
+  color: #ffffff;
+}
+
+/*---------------------------MAIN-INDEX---------------------------------*/
+main .hero {
+  width: 100%;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/bolillasdeloteria.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ECECEC;
+  text-shadow: 0.2em 0.2em 0.2em black;
+}
+main .hero h1 {
+  font-family: "PTSerif-Bold";
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+main .hero p {
+  font-family: "PTSerif-Bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main .hero h2 {
+  font-family: "PTSerif-Bold";
+  font-size: 3rem;
+  font-weight: bold;
+}
+main .principalConteinerCarousel {
+  width: 100%;
+  height: 39, 5em;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../multimedia/img/carouselBG.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .principalConteinerCarousel div div div div .carouselWidth {
+  width: 50em;
+  height: auto;
+  margin: 1em auto;
+}
+main .gamesSectionOne {
+  background-color: #446A46;
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+}
+main .gamesSectionOne .gamesSectionOne__quini6 {
+  position: relative;
+  justify-self: center;
+  margin: 1em 2em 1em auto;
+}
+main .gamesSectionOne .gamesSectionOne__quini6 img {
+  width: 60em;
+  height: auto;
+}
+main .gamesSectionOne .gamesSectionOne__quini6 .gamesSectionOne__button {
+  position: absolute;
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff6f23;
+  cursor: pointer;
+}
+main .gamesSectionOne .gamesSectionOne__quini6 .gamesSectionOne__buttonQuini6 {
+  top: 25rem;
+  left: 25rem;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+}
+main .gamesSectionOne .gamesSectionOne__quini6 .gamesSectionOne__buttonQuini6:hover {
+  top: 24.5rem;
+  left: 24.5rem;
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #FF85B3;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto {
+  justify-self: center;
+  margin: 1em auto 1em 2em;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco {
+  position: relative;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco img {
+  width: 30.7em;
+  height: auto;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco .gamesSectionOne__button {
+  position: absolute;
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff6f23;
+  cursor: pointer;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco .gamesSectionOne__buttonBrinco {
+  top: 19.5rem;
+  left: 10rem;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco .gamesSectionOne__buttonBrinco:hover {
+  top: 19rem;
+  left: 9.5rem;
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #FF85B3;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto {
+  position: relative;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto img {
+  width: 30.7em;
+  height: auto;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto .gamesSectionOne__button {
+  position: absolute;
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff6f23;
+  cursor: pointer;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto .gamesSectionOne__buttonLotto {
+  top: 7rem;
+  left: 19rem;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+}
+main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto .gamesSectionOne__buttonLotto:hover {
+  top: 6.5rem;
+  left: 18.5rem;
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #FF85B3;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
+}
+main .gamesSectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #82A284;
+}
+main .gamesSectionTwo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 25em;
+  height: 30em;
+  margin: 2em;
+  border-radius: 1em;
+  background-color: #fecc45;
+}
+main .gamesSectionTwo div .nationalLottery {
+  margin-top: 1em;
+  width: auto;
+  height: 9em;
+}
+main .gamesSectionTwo div .gamesSectionTwo__text {
+  width: 12rem;
+  text-align: center;
+  font-family: "PTSerif-Bold";
+  font-size: 2rem;
+  text-shadow: rgba(255, 255, 255, 0.822) 0.1em 0.2em 0.2em;
+}
+main .gamesSectionTwo div .gamesSectionTwo__button {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .gamesSectionTwo div .gamesSectionTwo__button:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
+}
+main .gamesSectionTwo div .cityLottery {
+  margin-top: 1em;
+  width: 11.5em;
+  height: auto;
+}
+main .gamesSectionTwo div .cordobaLottery {
+  margin: 1em 0em 2em;
+  width: 15em;
+  height: auto;
+}
+main .gamesSectionTwo div .santaFeLottery {
+  margin-top: 1em;
+  width: 11.5em;
+  height: auto;
+}
+
+/*------------------------------main-checkIn------------------------------*/
+.mainCheckIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55em;
+  background: url(../multimedia/img/bolillasdeloteriadoradas2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formCheckIn {
+  width: 40em;
+  background: #24303c;
+  padding: 3em;
+  border-radius: 0.4em;
+  font-family: "PTSerif-Bold";
+  color: #ffffff;
+  box-shadow: #000 0.7em 1.3em 3.7em;
+}
+
+.formCheckIn__textOne {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.formCheckIn__data {
+  display: block;
+  width: 34rem;
+  background: #24303c;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.6rem;
+  border: solid 0.1rem #1f53c5;
+  font-family: "PTSerif-Bold";
+  color: #fff;
+}
+
+.formCheckIn__button {
+  width: 100%;
+  cursor: pointer;
+  background: #1f53c5;
+  border: none;
+  padding: 1.2rem;
+  color: #ffffff;
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+}
+
+.formCheckIn__button:hover {
+  background-color: #2868f3;
+}
+
+.formCheckIn__button:active {
+  background-color: #1b3e8b;
+}
+
+.formCheckIn__logInContainer {
+  text-align: center;
+}
+
+.formCheckIn__textTwo {
+  height: 4em;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.formCheckIn__textTwo:hover {
+  text-decoration: underline;
+  color: #82A284;
+}
+
+/*------------------------------main-logIn--------------------------------*/
+.mainLogIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55em;
+  background: url(../multimedia/img/bolillasdeloteriadoradas2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formLogIn {
+  width: 40em;
+  background: #24303c;
+  padding: 3em;
+  border-radius: 0.4em;
+  font-family: "PTSerif-Bold";
+  color: #ffffff;
+  box-shadow: #000 0.7em 1.3em 3.7em;
+}
+
+.formLogIn__textOne {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.formLogIn__data {
+  display: block;
+  width: 34rem;
+  background: #24303c;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.6rem;
+  border: solid 0.1rem #1f53c5;
+  font-family: "PTSerif-Bold";
+  color: #fff;
+}
+
+.formLogIn__button {
+  width: 100%;
+  cursor: pointer;
+  background: #1f53c5;
+  border: none;
+  padding: 1.2rem;
+  color: #ffffff;
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+}
+
+.formLogIn__button:hover {
+  background-color: #2868f3;
+}
+
+.fformLogIn__button:active {
+  background-color: #1b3e8b;
+}
+
+.formLogIn__logInContainer {
+  text-align: center;
+}
+
+.formLogIn__textTwo {
+  height: 2em;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.formLogIn__textThree {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.formLogIn__textThree:hover {
+  text-decoration: underline;
+  color: #82A284;
+}
+
+/*------------------------------MAIN-playQuini6------------------------------*/
+/*Start mainPlayQuini6__title class*/
+main .mainPlayQuini6__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayQuini6__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayQuini6__imgContainer a .mainPlayQuini6__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayQuini6__title class*/
+/*------------------------------MAIN-playBrinco------------------------------*/
+/*Start mainPlayQuini6__title class*/
+main .mainPlayBrinco__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayBrinco__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayBrinco__imgContainer a .mainPlayBrinco__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayBrinco__title class*/
+/*------------------------------MAIN-playLottoPlus------------------------------*/
+/*Start mainPlayLottoPlus__title class*/
+main .mainPlayLottoPlus__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayLottoPlus__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayLottoPlus__imgContainer a .mainPlayLottoPlus__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayLottoPlus__title class*/
+/*------------------------------MAIN-playNationalLottery------------------------------*/
+/*Start mainPlayNationalLottery__title class*/
+main .mainPlayNationalLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayNationalLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayNationalLottery__imgContainer a .mainPlayNationalLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayNationalLottery__title class*/
+/*------------------------------MAIN-playCityLottery------------------------------*/
+/*Start mainPlayCityLottery__title class*/
+main .mainPlayCityLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayCityLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayCityLottery__imgContainer a .mainPlayCityLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayCityLottery__title class*/
+/*------------------------------MAIN-playCordobaLottery------------------------------*/
+/*Start mainPlayCordobaLottery__title class*/
+main .mainPlayCordobaLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlayCordobaLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlayCordobaLottery__imgContainer a .mainPlayCordobaLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlayCordobaLottery__title class*/
+/*------------------------------MAIN-playSantaFeLottery------------------------------*/
+/*Start mainPlaySantaFeLottery__title class*/
+main .mainPlaySantaFeLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainPlaySantaFeLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainPlaySantaFeLottery__imgContainer a .mainPlaySantaFeLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainPlaySantaFeLottery__title class*/
+/*------------------------------MAIN-ResultQuini6------------------------------*/
+/*Start mainResultQuini6__title class*/
+main .mainResultQuini6__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultQuini6__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultQuini6__title class*/
+/*------------------------------MAIN-ResultBrinco------------------------------*/
+/*Start mainResultBrinco__title class*/
+main .mainResultBrinco__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultBrinco__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultBrinco__imgContainer a .mainResultBrinco__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultBrinco__title class*/
+/*------------------------------MAIN-ResultLottoPlus------------------------------*/
+/*Start mainResultLottoPlus__title class*/
+main .mainResultLottoPlus__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultLottoPlus__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultLottoPlus__title class*/
+/*------------------------------MAIN-ResultNationalLottery------------------------------*/
+/*Start mainResultNationalLottery__title class*/
+main .mainResultNationalLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultNationalLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultNationalLottery__imgContainer a .mainResultNationalLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultNationalLottery__title class*/
+/*------------------------------MAIN-ResultCityLottery------------------------------*/
+/*Start mainResultCityLottery__title class*/
+main .mainResultCityLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultCityLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultCityLottery__imgContainer a .mainResultCityLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultCityLottery__title class*/
+/*------------------------------MAIN-ResultCordobaLottery------------------------------*/
+/*Start mainResultCordobaLottery__title class*/
+main .mainResultCordobaLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultCordobaLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultCordobaLottery__imgContainer a .mainResultCordobaLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultCordobaLottery__title class*/
+/*------------------------------MAIN-ResultSantaFeLottery------------------------------*/
+/*Start mainResultSantaFeLottery__title class*/
+main .mainResultSantaFeLottery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PT Serif";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+main .mainResultSantaFeLottery__imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50em;
+  background: url(../multimedia/img/matrixGif.gif);
+}
+main .mainResultSantaFeLottery__imgContainer a .mainResultSantaFeLottery__img {
+  border-radius: 1em;
+  width: auto;
+  height: 30em;
+}
+
+/*End mainResultSantaFeLottery__title class*/
+/*------------------------------MAIN-INSTITUCIONAL------------------------------*/
+/*Start institutional__title class*/
+.institutional__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PTSerif-Bold";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+
+/*End institutional__title class*/
+/*Start Institutional__firstsection*/
+.institutional__firstSection {
+  margin: 5% 15%;
+  /*+++++++++++++++++++++*/
+}
+
+.institutional__firstSection h3 {
+  font-size: 3rem;
+  color: #4677c4;
+}
+
+.institutional__firstSection div {
+  height: 50%;
+  /*+++++++++++++++++++++++++++*/
+  font-size: 1.7rem;
+}
+
+.institutional__firstSection img {
+  float: right;
+  width: auto;
+  height: 25rem;
+}
+
+.institutional__firstSectionText {
+  margin: 2rem 0 0 5rem;
+}
+
+/*End Institutional__firstsection*/
+/*Start institutional__secondSection class*/
+.institutional__secondSection {
+  margin: 5% 15% 10%;
+  /*++++++++++++++++++++++++++*/
+}
+
+.institutional__secondSection h3 {
+  font-size: 3rem;
+  color: #4677c4;
+}
+
+.institutional__secondSection div {
+  height: 50%;
+  /*++++++++++++++++++++++*/
+  font-size: 1.7rem;
+}
+
+.institutional__secondSectionImg1 {
+  float: right;
+  width: auto;
+  height: 50rem;
+}
+
+.institutional__secondSectionImg2 {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.institutional__secondSection p {
+  margin: 2rem 0 5rem 5rem;
+}
+
+.institutional__secondSection div div p {
+  margin: 3rem 0 0 1.5rem;
+}
+
+.institutional__secondSection div div {
+  display: flex;
+}
+
+/*End institutional__secondSection class*/
+/*------------------------------MAIN-SOPORTE------------------------------*/
+.soporte__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PTSerif-Bold";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+
+/*Start soporte__firstSection class*/
+.soporte__firstSection {
+  margin: 5% 15%;
+  /*+++++++++++++++++++*/
+}
+
+.soporte__firstSection h3 {
+  font-size: 3rem;
+  color: #4677c4;
+}
+
+.soporte__firstSection h4 {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color: #4677c4;
+}
+
+.soporte__firstSectionText {
+  margin: 2rem 0 0 5rem;
+  font-size: 1.7rem;
+}
+
+/*End soporte__firstSection class*/
+/*Start soporte__secondSection class*/
+.soporte__secondSection {
+  margin: 5% 15%;
+  /*++++++++++++++++*/
+}
+
+.soporte__secondSectionTitle {
+  font-size: 3rem;
+  color: #4677c4;
+}
+
+.soporte__secondSectionImg {
+  float: left;
+  width: auto;
+  height: 20rem;
+}
+
+.soporte__secondSectionText {
+  margin: 2rem 0 0 5rem;
+  font-size: 1.7rem;
+}
+
+.soporte__secondSection span {
+  display: block;
+  margin: 2rem;
+}
+
+/*End soporte__secondSection class*/
+/*Start soporte__thirdSection class*/
+.soporte__thirdSection {
+  margin: 5% 15%;
+  /*++++++++++++++++++++*/
+}
+
+.soporte__thirdSectionTitle {
+  font-size: 3rem;
+  color: #4677c4;
+}
+
+.soporte__thirdSectionText {
+  margin: 2rem 0 0 5rem;
+  font-size: 1.7rem;
+}
+
+.soporte__thirdSectionContainerImg {
+  margin: 2rem 0 0 5rem;
+}
+
+.soporte__thirdSectionImg {
+  margin: 1rem 3rem;
+}
+
+/*End soporte__thirdSection class*/
+/*------------------------------MAIN GALLERY------------------------------*/
+.gallery__title {
+  width: auto;
+  height: auto;
+  background: url(../multimedia/img/clover.jpg);
+  color: #ffffff;
+  font-family: "PTSerif-Bold";
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
+  margin: 1rem 0;
+  padding: 2rem;
+}
+
+.gallery__container {
+  margin: 2% 5%;
+  /*++++++++++++++++++++++++++++++++++++*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 30rem;
+  gap: 1rem;
+}
+
+.gallery__container div {
+  position: relative;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0), #000000);
+}
+
+.gallery__img {
+  border: solid 0.6rem #000000;
+  object-fit: contain;
+  width: 100%;
+  /*+++++++++++++++++++++++++++++*/
+  height: 100%;
+  /*+++++++++++++++++++++++++++++*/
+  border-radius: 2rem;
+}
+
+.gallery__text {
+  position: absolute;
+  bottom: 0;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+  width: 100%;
+  /*+++++++++++++++++++++++++++++*/
+  padding-left: 1rem;
+}
+
+.gallery__img1Container {
+  grid-column-start: span 2;
+}
+
+/*----------------------------------------FOOTER------------------------------------------*/
+.footerContainer {
+  background-color: #143F6B;
+}
+.footerContainer .appSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+}
+.footerContainer .appSection img {
+  margin: 1em;
+  width: auto;
+  height: 5.5em;
+}
+.footerContainer .socialNetworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+}
+.footerContainer .socialNetworks a img {
+  margin: 2em;
+  width: 4em;
+  height: auto;
+}
+.footerContainer .lineOne {
+  display: block;
+  width: 60rem;
+  margin: 0 auto;
+}
+.footerContainer .otherWebsites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+}
+.footerContainer .otherWebsites img {
+  margin: 2em;
+  width: auto;
+  height: 4em;
+}
+.footerContainer .lineTwo {
+  display: block;
+  width: 81rem;
+  margin: 0 auto;
+}
+.footerContainer .firtsFooterText {
+  display: flex;
+  justify-content: center;
+  width: 80rem;
+  height: auto;
+  color: aliceblue;
+  font-family: "PTSerif-Bold";
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+.footerContainer .secondFooterText {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  width: 80rem;
+  height: auto;
+  font-family: "PTSerif-Bold";
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+.footerContainer .thirdFooterText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ECECEC;
+  font-family: "PTSerif-Bold";
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+.footerContainer .thirdFooterText img {
+  margin: 1rem;
+}
+
+/*---------------------------RESPONSIVE-----------------------------*/
+/*------------------------------MOBILE*/
+@media (max-width: 450px) {
+  html {
+    /*set root font-size from 16px to 10px and use REM*/
+    font-size: 40%;
+  }
+
+  .bodyGridContainer {
+    grid-template-rows: 12.2rem 1fr 50rem;
+  }
+
+  /*------------------------------header*/
+  /*start logo class*/
+  .headerSectionFirst__logoImg {
+    width: 7em;
+  }
+
+  /*end logo class*/
+  /*Start title class*/
+  .titleContainer img {
+    width: 20em;
+  }
+
+  /*End title class*/
+  /*Start avatar class*/
+  .avatar {
+    width: 4em;
+  }
+
+  /*End avatar class*/
+  /*Start checkInAndLogIn Class*/
+  .userZone__checkInAndLogIn {
+    display: block;
+    margin-left: 20px;
+  }
+
+  /*End checkInAndLogIn Class*/
+  .userZone__checkIn {
+    margin-left: 0.5em;
+  }
+
+  /*----------------------------------main-index*/
+  .hero {
+    height: 15em;
+    background-attachment: inherit;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  /*----------------*/
+  .gamesSectionOne {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  /*Start gamesSectionOne__quini6 class*/
+  .gamesSectionOne__quini6 {
+    margin: 1em;
+    justify-self: center;
+  }
+
+  .gamesSectionOne__quini6 img {
+    width: 45em;
+  }
+
+  .gamesSectionOne__buttonQuini6 {
+    top: 19rem;
+    left: 18rem;
+  }
+
+  .gamesSectionOne__buttonQuini6:hover {
+    top: 18.5rem;
+    left: 17.5rem;
+  }
+
+  /*Start gamesSectionOne__brinco*/
+  .gamesSectionOne__brincoAndLotto {
+    margin: 1em;
+    justify-self: center;
+  }
+
+  .gamesSectionOne__brinco {
+    margin-bottom: 1em;
+  }
+
+  /*-------------------*/
+  .gamesSectionTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*------------------------------main-gallery*/
+  .gallery__container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+  }
+
+  .gallery__img {
+    height: 27em;
+  }
+
+  .gallery__img1Container {
+    grid-column-start: revert;
+  }
+
+  /*---------------------------------------footer*/
+  .firtsFooterText {
+    width: 44rem;
+  }
+
+  .secondFooterText {
+    width: 43em;
+  }
+
+  .otherWebsites img {
+    margin: 0.5em;
+    height: 3em;
+  }
+
+  .thirdFooterText img {
+    width: 2em;
+    height: auto;
+  }
+
+  .lineOne {
+    width: 48rem;
+  }
+
+  .lineTwo {
+    width: 48rem;
+  }
+}
+/*------------------------------TABLET*/
+@media (min-width: 451px) and (max-width: 600px) {
+  html {
+    /*set root font-size from 16px to 10px and use REM*/
+    font-size: 50%;
+  }
+
+  .bodyGridContainer {
+    grid-template-rows: 13rem 1fr 50rem;
+  }
+
+  /*------------------------------header*/
+  /*start logo class*/
+  .headerSectionFirst__logoImg {
+    width: 8em;
+  }
+
+  /*end logo class*/
+  /*Start title class*/
+  .titleContainer img {
+    width: 22em;
+  }
+
+  /*End title class*/
+  /*Start checkInAndLogIn Class*/
+  .userZone__checkInAndLogIn {
+    display: block;
+    margin-left: 30px;
+  }
+
+  /*End checkInAndLogIn Class*/
+  .userZone__checkIn {
+    margin-left: 0.5em;
+  }
+
+  /*----------------------------------main-index*/
+  .hero {
+    height: 20em;
+    background-attachment: inherit;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  /*----------------*/
+  .gamesSectionOne {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  /*Start gamesSectionOne__quini6 class*/
+  .gamesSectionOne__quini6 {
+    margin: 1em;
+    justify-self: center;
+  }
+
+  .gamesSectionOne__quini6 img {
+    width: 45em;
+  }
+
+  .gamesSectionOne__buttonQuini6 {
+    top: 19rem;
+    left: 18rem;
+  }
+
+  .gamesSectionOne__buttonQuini6:hover {
+    top: 18.5rem;
+    left: 17.5rem;
+  }
+
+  .gamesSectionOne__brincoAndLotto {
+    margin: 1em;
+    justify-self: center;
+  }
+
+  .gamesSectionOne__brinco {
+    margin-bottom: 1em;
+  }
+
+  /*-------------------*/
+  .gamesSectionTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*------------------------------main-gallery*/
+  .gallery__container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+
+  .gallery__img {
+    height: 27em;
+  }
+
+  .gallery__img1Container {
+    grid-column-start: revert;
+  }
+
+  /*---------------------------------------footer*/
+  .firtsFooterText {
+    width: 50rem;
+  }
+
+  .secondFooterText {
+    width: 50rem;
+  }
+
+  .thirdFooterText img {
+    width: 2em;
+    height: auto;
+  }
+
+  .otherWebsites img {
+    margin: 0.2em;
+    height: 3.5em;
+  }
+
+  .lineOne {
+    width: 50rem;
+  }
+
+  .lineTwo {
+    width: 50rem;
+  }
+}
+/*------------------------------TABLET*/
+@media (min-width: 601px) and (max-width: 960px) {
+  html {
+    /*set root font-size from 16px to 10px and use REM*/
+    font-size: 55%;
+  }
+
+  .bodyGridContainer {
+    grid-template-rows: 13.6rem 1fr 50rem;
+  }
+
+  /*------------------------------header*/
+  /*start logo class*/
+  .headerSectionFirst__logoImg {
+    width: 8.5em;
+  }
+
+  /*end logo class*/
+  /*Start title class*/
+  .titleContainer img {
+    width: 24em;
+  }
+
+  /*End title class*/
+  /*----------------------------------main-index*/
+  .hero {
+    height: 25em;
+    background-attachment: inherit;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  /*----------------*/
+  .gamesSectionOne {
+    grid-template-columns: 62% 38%;
+  }
+
+  .gamesSectionOne__quini6 {
+    justify-self: center;
+    margin-left: 1em;
+  }
+
+  .gamesSectionOne__quini6 img {
+    width: 40em;
+  }
+
+  .gamesSectionOne__buttonQuini6 {
+    top: 17rem;
+    left: 15rem;
+  }
+
+  .gamesSectionOne__buttonQuini6:hover {
+    top: 16.5rem;
+    left: 14.5rem;
+  }
+
+  /*-----------------*/
+  .gamesSectionOne__brincoAndLotto {
+    margin: 1em auto 1em 0;
+    justify-self: center;
+  }
+
+  /*-------------------*/
+  .gamesSectionOne__brinco {
+    margin-bottom: 1em;
+  }
+
+  .gamesSectionOne__brinco > img {
+    width: 24em;
+  }
+
+  .gamesSectionOne__buttonBrinco {
+    top: 14rem;
+    left: 7rem;
+  }
+
+  .gamesSectionOne__buttonBrinco:hover {
+    top: 13.5rem;
+    left: 6.5rem;
+  }
+
+  /*----------------*/
+  .gamesSectionOne__lotto > img {
+    width: 24em;
+  }
+
+  .gamesSectionOne__buttonLotto {
+    top: 13rem;
+    left: 7rem;
+  }
+
+  .gamesSectionOne__buttonLotto:hover {
+    top: 12.5rem;
+    left: 6.5rem;
+  }
+
+  /*-----------------------------main-intitutional*/
+  .institutional__firstSection img {
+    margin: 2em;
+  }
+
+  .institutional__secondSectionImg1 {
+    margin: 2em;
+  }
+
+  /*------------------------------main-gallery*/
+  .gallery__container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+
+  .gallery__img {
+    height: 27em;
+  }
+
+  .gallery__img1Container {
+    grid-column-start: revert;
+  }
+
+  /*---------------------------------------footer*/
+  .firtsFooterText {
+    width: 65rem;
+  }
+
+  .secondFooterText {
+    width: 60rem;
+  }
+
+  .otherWebsites img {
+    margin: 1em;
+  }
+
+  .lineOne {
+    width: 60rem;
+  }
+
+  .lineTwo {
+    width: 65rem;
+  }
+}
+/*------------------------------netbook*/
+@media (min-width: 961px) and (max-width: 1200px) {
+  /*----------------------------------main-index*/
+  /*----------------*/
+  .gamesSectionOne {
+    grid-template-columns: 60% 40%;
+  }
+
+  .gamesSectionOne__quini6 {
+    justify-self: center;
+    margin: 1em 2em 1em auto;
+  }
+
+  .gamesSectionOne__quini6 img {
+    width: 50em;
+  }
+
+  .gamesSectionOne__buttonQuini6 {
+    top: 21rem;
+    left: 20rem;
+  }
+
+  .gamesSectionOne__buttonQuini6:hover {
+    top: 20.5rem;
+    left: 19.5rem;
+  }
+
+  /*-----------------*/
+  .gamesSectionOne__brincoAndLotto {
+    margin: 1em auto 1em 2em;
+    justify-self: center;
+  }
+
+  /*-----------------------*/
+  .gamesSectionOne__brinco {
+    margin-bottom: 1em;
+  }
+
+  .gamesSectionOne__brinco > img {
+    width: 30em;
+  }
+
+  .gamesSectionOne__buttonBrinco {
+    top: 19rem;
+    left: 10rem;
+  }
+
+  .gamesSectionOne__buttonBrinco:hover {
+    top: 18.5rem;
+    left: 9.5rem;
+  }
+
+  /*----------------*/
+  .gamesSectionOne__lotto > img {
+    width: 30em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

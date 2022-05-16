@@ -1,0 +1,104 @@
+/*----------------------------------------FOOTER------------------------------------------*/
+//footerContainer
+.footerContainer{
+    background-color: #143F6B;
+
+    //Start app class
+    .appSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10em;
+
+        img{
+            margin: 1em;
+            width: auto;
+            height: 5.5em;
+        }
+    }
+    //End app class
+    //Start socialNetworks class
+    .socialNetworks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8em;
+
+        a{
+            img{
+                margin: 2em;
+                width: 4.0em;
+                height: auto;
+            }
+        }
+    }
+    //End socialNetwors class
+    //Start lineOne class
+    .lineOne{
+        display: block;
+        width: 60rem;
+        margin: 0 auto;
+    }
+    //End lineOne class
+    //Start otherWebSites class
+    .otherWebsites{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8em;
+
+        img{
+            margin: 2em;
+            width: auto;
+            height: 4em;
+        }
+    }
+    //End otherWebSites class
+    //Start lineTwo class
+    .lineTwo{
+        display: block;
+        width: 81rem;
+        margin: 0 auto;
+    }
+    //End lineTwo class
+    //Start firstFooterText class
+    .firtsFooterText{
+        display: flex;
+        justify-content: center;
+        width: 80rem;
+        height: auto;
+        color: aliceblue;
+        font-family: "PTSerif-Bold";
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    //End firstFooterText class
+    //Start secondFooterText class
+    .secondFooterText{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        width: 80rem;
+        height: auto;
+        font-family: "PTSerif-Bold";
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    //End secondFooterText class
+    //Start thirdFooterText class
+    .thirdFooterText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#ECECEC;
+        font-family: "PTSerif-Bold";;
+        font-size: 1.1rem;
+        margin: 1rem;
+        img{
+            margin: 1rem;
+        }
+    }
+    //End thirdFooterText class
+}

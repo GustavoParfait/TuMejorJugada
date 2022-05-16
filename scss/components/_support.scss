@@ -1,0 +1,76 @@
+/*------------------------------MAIN-SOPORTE------------------------------*/
+
+.soporte__title{
+    width: auto;
+    height: auto;
+    background: url(../multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+/*Start soporte__firstSection class*/
+.soporte__firstSection{
+    margin: 5% 15%;             /*+++++++++++++++++++*/
+}
+.soporte__firstSection h3{
+    font-size: 3rem;
+    color: #4677c4;
+}
+.soporte__firstSection h4{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: #4677c4;
+}
+.soporte__firstSectionText{
+    margin: 2rem 0 0 5rem;
+    font-size: 1.7rem;
+}
+/*End soporte__firstSection class*/
+
+/*Start soporte__secondSection class*/
+.soporte__secondSection{
+    margin: 5% 15%;             /*++++++++++++++++*/
+}
+.soporte__secondSectionTitle{
+    font-size: 3rem;
+    color: #4677c4;
+}
+.soporte__secondSectionImg{
+    float: left;
+    width: auto;
+    height: 20rem;
+}
+.soporte__secondSectionText{
+    margin: 2rem 0 0 5rem;
+    font-size: 1.7rem;
+}
+.soporte__secondSection span{
+    display: block;
+    margin: 2rem;
+}
+/*End soporte__secondSection class*/
+
+/*Start soporte__thirdSection class*/
+.soporte__thirdSection{
+    margin: 5% 15%;            /*++++++++++++++++++++*/
+}
+.soporte__thirdSectionTitle{
+    font-size: 3rem;
+    color: #4677c4;
+}
+.soporte__thirdSectionText{
+    margin: 2rem 0 0 5rem;
+    font-size: 1.7rem;
+}
+.soporte__thirdSectionContainerImg{
+    margin: 2rem 0 0 5rem;
+}
+.soporte__thirdSectionImg{
+    margin: 1rem 3rem;
+}
+/*End soporte__thirdSection class*/

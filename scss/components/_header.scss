@@ -1,0 +1,104 @@
+/*------------------------------HEADER---------------------------------*/
+header{
+    //Start header class
+    .headerSectionFirst{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: #5463ff;
+
+        //Start logo class
+        div{
+            a{
+                .headerSectionFirst__logoImg{
+                    width: 10em;
+                    height: auto;
+                }
+            }
+        }
+        //End logo class
+        //Start title class
+        .titleContainer{
+            a{
+                img{
+                    width: 28em;
+                    height: auto;
+                    margin: 1em 0;
+                }
+            }
+        }
+        //End title class
+        //Start userZone class
+        .headerSectionFirst__userZone{
+            div{
+                .avatar{
+                    width: 6em;
+                    height: auto;
+                    margin: 0 5.5em;
+                }
+            }
+            .userZone__checkInAndLogIn{
+                display: flex;
+                list-style: none;
+
+                li{
+                    a{
+                        text-decoration: none;
+                        font-family: "PTSerif-Bold";
+                        font-size: 1.3rem;
+                        color: #ECECEC;
+                        padding: .5rem;
+
+                        &:hover{
+                            color: chocolate;
+                            transition: 1s;
+                        }
+
+                    }
+                }
+            }
+        }
+        //End userZone class
+    }
+    //End header class
+    //Start newNav from bootstrap class
+    .bg-new{
+        background-color: #FFC300;
+
+        div{
+            //text inicio
+            .navbar-brand{
+                font-family: fantasy;
+                font-size: 2.5rem;
+                text-shadow: .1em .2em .3em black;
+
+            }
+            div{
+                font-family: fantasy;
+                font-size: 2rem;
+
+                ul{
+                    li{
+                        .dropdown-menu{
+                            background-color: #cfa92f;
+                            font-family: fantasy;
+                            font-size: 1.7rem;
+                            text-shadow: .1em .2em .2em black;
+                            li{
+                                .dropdown-item{
+                                    color: #ffffff;
+    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //End newNav from bootstrap class
+}

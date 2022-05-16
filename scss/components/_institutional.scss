@@ -1,0 +1,73 @@
+/*------------------------------MAIN-INSTITUCIONAL------------------------------*/
+
+/*Start institutional__title class*/
+.institutional__title{
+    width: auto;
+    height: auto;
+    background: url(../multimedia/img/clover.jpg);
+    color: #ffffff;
+    font-family: "PTSerif-Bold";
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: #000000 .5rem .5rem .4rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+/*End institutional__title class*/
+
+/*Start Institutional__firstsection*/
+.institutional__firstSection{
+    margin: 5% 15%;            /*+++++++++++++++++++++*/
+}
+.institutional__firstSection h3{
+    font-size: 3rem;
+    color: #4677c4;
+}
+.institutional__firstSection div{
+    height: 50%;              /*+++++++++++++++++++++++++++*/
+    font-size: 1.7rem;
+}
+.institutional__firstSection img{
+    float: right;
+    width: auto;
+    height: 25rem;
+}
+.institutional__firstSectionText{
+    margin: 2rem 0 0 5rem;
+}
+/*End Institutional__firstsection*/
+
+
+/*Start institutional__secondSection class*/
+.institutional__secondSection{
+    margin: 5% 15% 10%;          /*++++++++++++++++++++++++++*/
+}
+.institutional__secondSection h3{
+    font-size: 3rem;
+    color: #4677c4;
+}
+.institutional__secondSection div{
+    height: 50%;                /*++++++++++++++++++++++*/
+    font-size: 1.7rem;
+}
+.institutional__secondSectionImg1{
+    float: right;
+    width: auto;
+    height: 50rem;
+}
+.institutional__secondSectionImg2{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 3rem;
+    height: 3rem;
+}
+.institutional__secondSection p{
+    margin: 2rem 0 5rem 5rem;
+}
+.institutional__secondSection div div p{
+    margin: 3rem 0 0 1.5rem;
+}
+.institutional__secondSection div div{
+    display: flex;
+}
+/*End institutional__secondSection class*/
