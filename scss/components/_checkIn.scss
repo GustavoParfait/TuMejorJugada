@@ -10,59 +10,73 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.formCheckIn{
-    width: 40em;
-    background: #24303c;
-    padding: 3em;
-    border-radius: .4em;
-    font-family: "PTSerif-Bold";
-    color: #ffffff;
-    box-shadow: #000 .7em 1.3em 3.7em;
-}
 
-.formCheckIn__textOne{
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-}
+    div{
+        .formCheckIn{
+            width: 40em;
+            background: #24303c;
+            padding: 3em;
+            border-radius: .4em;
+            font-family: "PTSerif-Bold";
+            color: #ffffff;
+            box-shadow: #000 .7em 1.3em 3.7em;
 
-.formCheckIn__data{
-    display: block;
-    width: 34rem;
-    background: #24303c;
-    padding: 1rem;
-    border-radius: .4rem;
-    margin-bottom: 1.6rem;
-    border: solid .1rem #1f53c5;
-    font-family: "PTSerif-Bold"; 
-    color: #fff;
-}
-.formCheckIn__button{
-    width: 100%;
-    cursor: pointer;
-    background: #1f53c5;
-    border: none;
-    padding: 1.2rem;
-    color: #ffffff;
-    margin: 1.5rem 0;
-    font-size: 1.6rem;
-}
-.formCheckIn__button:hover{
-    background-color: #2868f3;
-}
-.formCheckIn__button:active{
-    background-color: #1b3e8b;
-}
-.formCheckIn__logInContainer{
-    text-align: center;
-}
-.formCheckIn__textTwo{
-    height: 4em;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-.formCheckIn__textTwo:hover{
-    text-decoration: underline;
-    color: #82A284;
+            .formCheckIn__textOne{
+                font-size: 2.2rem;
+                margin-bottom: 2rem;
+
+            }
+            .formCheckIn__data{
+                display: block;
+                width: 34rem;
+                background: #24303c;
+                padding: 1rem;
+                border-radius: .4rem;
+                margin-bottom: 1.6rem;
+                border: solid .1rem #1f53c5;
+                font-family: "PTSerif-Bold"; 
+                color: #fff;
+
+            }
+
+            .formCheckIn__button{
+                width: 100%;
+                cursor: pointer;
+                background: #1f53c5;
+                border: none;
+                padding: 1.2rem;
+                color: #ffffff;
+                margin: 1.5rem 0;
+                font-size: 1.6rem;
+
+                &:hover{
+                    background-color: #2868f3;
+
+                }
+
+                &:hover{
+                    background-color: #1b3e8b;
+
+                }
+
+            }
+            .formCheckIn__logInContainer{
+                text-align: center;
+
+                .formCheckIn__textTwo{
+                    height: 4em;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size: 18px;
+
+                    &:hover{
+                        text-decoration: underline;
+                        color: #82A284;
+
+                    }
+
+                }
+            }
+        }
+    }
 }

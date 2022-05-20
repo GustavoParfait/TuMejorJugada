@@ -1,4 +1,5 @@
 /*----------------------------------------FOOTER------------------------------------------*/
+
 //footerContainer
 .footerContainer{
     background-color: #143F6B;
@@ -101,4 +102,86 @@
         }
     }
     //End thirdFooterText class
+    //----------------------------------------------
+    //Start responsive class
+    @media (max-width: 450px){
+        footer{
+            .lineOne{
+                width: 48rem;
+            }
+            .otherWebsites{
+                img{
+                    margin: 0.5em;
+                    height: 3em;
+                }
+            }
+            .lineTwo{
+                width: 48rem;
+            }
+            .firtsFooterText{
+                width: 44rem;
+            }
+            .secondFooterText{
+                width: 43em;
+            }
+            .thirdFooterText{
+                width: 2em;
+                height: auto;
+            }
+        }
+    }
+    //-----------------------------------------------
+    @media (min-width: 451px) and (max-width: 600px){
+        footer{
+            .lineOne{
+                width: 50rem;
+            }
+            .otherWebsites{
+
+                img{
+                    margin: .2em;
+                    height: 3.5em;
+                }
+            }
+            .lineTwo{
+                width: 50rem;
+            }
+            .firtsFooterText{
+                width: 50rem;
+            }
+            .secondFooterText{
+                width: 50rem;
+            }
+            .thirdFooterText{
+
+                img{
+                    width: 2em;
+                    height: auto;
+                }
+            }
+        }
+    }
+    //-------------------------------------------------
+    @media (min-width: 601px) and (max-width: 960px){
+        footer{
+            .lineOne{
+                width: 60rem;
+            }
+            .otherWebsites{
+                img{
+                    margin: 1em;
+                }
+            }
+            .lineTwo{
+                width: 65rem;
+            }
+            .firtsFooterText{
+                width: 65rem;
+            }
+            .secondFooterText{
+                width: 60rem;
+            }
+        }
+    }
+    //End responsive class
 }
