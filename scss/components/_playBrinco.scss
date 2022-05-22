@@ -1,21 +1,10 @@
 /*------------------------------MAIN-playBrinco------------------------------*/
-/*Start mainPlayQuini6__title class*/
+
 @import '../base/variables';
-@import '../base/reset';
-//----------------------------------------------------
+
 main{
     .mainPlayBrinco__title{
-        width: auto;
-        height: auto;
-        background: url(../multimedia/img/clover.jpg);
-        color: #ffffff;
-        font-family: $fonst1;
-        font-size: 5rem;
-        text-align: center;
-        text-shadow: #000000 .5rem .5rem .4rem;
-        margin: 1rem 0;
-        padding: 2rem;
-
+        @extend %title;
     }
     .mainPlayBrinco__imgContainer{
         display: flex;

@@ -1,0 +1,16 @@
+//boton----------------
+
+$boton:(
+    posicion: absolute,
+    dis-bloque: block,
+    b-sombra: rgb (20 20 20 / 40%) .1rem .2rem .2rem,
+    borde: .8rem,
+    fuente: "PTSerif-Bold",
+    T-sombra: rgb(20 20 20 / 40%) .1rem .2rem .2rem,
+    T-aling: center,
+    T-tamaño: 1.4rem,
+    T-color: #ffffff,
+    T-decora: none,
+    bg-color: #ff6f23,
+    cursor: pointer,
+);

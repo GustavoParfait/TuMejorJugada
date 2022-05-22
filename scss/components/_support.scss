@@ -1,19 +1,8 @@
 /*------------------------------MAIN-SOPORTE------------------------------*/
-@import '../base/reset';
-//----------------------------------------------------s
+
 main{
     .soporte__title{
-        width: auto;
-        height: auto;
-        background: url(../multimedia/img/clover.jpg);
-        color: #ffffff;
-        font-family: "PTSerif-Bold";
-        font-size: 5rem;
-        text-align: center;
-        text-shadow: #000000 .5rem .5rem .4rem;
-        margin: 1rem 0;
-        padding: 2rem;
-
+        @extend %title;
     }
     //Start soporte__firstSection class
     .soporte__firstSection{

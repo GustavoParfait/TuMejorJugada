@@ -28,11 +28,11 @@ html {
 /*End reset*/
 /*my font*/
 @font-face {
-  src: url(../../../TuMejorJugada/fonts/PT_Serif/PTSerif-Bold.ttf);
+  src: url(../fonts/PT_Serif/PTSerif-Bold.ttf);
   font-family: "PT Serif", serif;
 }
 @font-face {
-  src: url(../../../TuMejorJugada/fonts/Koulen/Koulen-Regular.ttf);
+  src: url(../fonts/Koulen/Koulen-Regular.ttf);
   font-family: "Koulen", cursive;
 }
 /*------------------------------HEADER---------------------------------*/
@@ -226,7 +226,7 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 }
 .bodyGridContainer main .hero p {
   font-family: "PTSerif-Bold";
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 @media (max-width: 450px) {
@@ -364,7 +364,7 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 .bodyGridContainer main .gamesSectionOne .gamesSectionOne__quini6 .gamesSectionOne__button {
   position: absolute;
   display: block;
-  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  box-shadow: rgb 20 20 20/40% 0.1rem 0.2rem 0.2rem;
   border-radius: 0.8rem;
   font-family: "PTSerif-Bold";
   text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
@@ -505,7 +505,7 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 .bodyGridContainer main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__brinco .gamesSectionOne__button {
   position: absolute;
   display: block;
-  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  box-shadow: rgb 20 20 20/40% 0.1rem 0.2rem 0.2rem;
   border-radius: 0.8rem;
   font-family: "PTSerif-Bold";
   text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
@@ -578,7 +578,7 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 .bodyGridContainer main .gamesSectionOne .gamesSectionOne__brincoAndLotto .gamesSectionOne__lotto .gamesSectionOne__button {
   position: absolute;
   display: block;
-  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  box-shadow: rgb 20 20 20/40% 0.1rem 0.2rem 0.2rem;
   border-radius: 0.8rem;
   font-family: "PTSerif-Bold";
   text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
@@ -776,34 +776,6 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 }
 
 /*------------------------------main-logIn--------------------------------*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
 .mainLogIn {
   display: flex;
   justify-content: center;
@@ -876,46 +848,6 @@ html {
 
 /*------------------------------MAIN-playQuini6------------------------------*/
 /*Start mainPlayQuini6__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayQuini6__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayQuini6__imgContainer {
   display: flex;
   justify-content: center;
@@ -932,47 +864,6 @@ main .mainPlayQuini6__imgContainer a .mainPlayQuini6__img {
 
 /*End mainPlayQuini6__title class*/
 /*------------------------------MAIN-playBrinco------------------------------*/
-/*Start mainPlayQuini6__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayBrinco__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayBrinco__imgContainer {
   display: flex;
   justify-content: center;
@@ -990,46 +881,6 @@ main .mainPlayBrinco__imgContainer a .mainPlayBrinco__img {
 /*End mainPlayBrinco__title class*/
 /*------------------------------MAIN-playLottoPlus------------------------------*/
 /*Start mainPlayLottoPlus__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayLottoPlus__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayLottoPlus__imgContainer {
   display: flex;
   justify-content: center;
@@ -1047,46 +898,6 @@ main .mainPlayLottoPlus__imgContainer a .mainPlayLottoPlus__img {
 /*End mainPlayLottoPlus__title class*/
 /*------------------------------MAIN-playNationalLottery------------------------------*/
 /*Start mainPlayNationalLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayNationalLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayNationalLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1104,46 +915,6 @@ main .mainPlayNationalLottery__imgContainer a .mainPlayNationalLottery__img {
 /*End mainPlayNationalLottery__title class*/
 /*------------------------------MAIN-playCityLottery------------------------------*/
 /*Start mainPlayCityLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayCityLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayCityLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1161,46 +932,6 @@ main .mainPlayCityLottery__imgContainer a .mainPlayCityLottery__img {
 /*End mainPlayCityLottery__title class*/
 /*------------------------------MAIN-playCordobaLottery------------------------------*/
 /*Start mainPlayCordobaLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlayCordobaLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlayCordobaLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1218,46 +949,6 @@ main .mainPlayCordobaLottery__imgContainer a .mainPlayCordobaLottery__img {
 /*End mainPlayCordobaLottery__title class*/
 /*------------------------------MAIN-playSantaFeLottery------------------------------*/
 /*Start mainPlaySantaFeLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainPlaySantaFeLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainPlaySantaFeLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1275,46 +966,6 @@ main .mainPlaySantaFeLottery__imgContainer a .mainPlaySantaFeLottery__img {
 /*End mainPlaySantaFeLottery__title class*/
 /*------------------------------MAIN-ResultQuini6------------------------------*/
 /*Start mainResultQuini6__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultQuini6__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultQuini6__imgContainer {
   display: flex;
   justify-content: center;
@@ -1332,46 +983,6 @@ main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
 /*End mainResultQuini6__title class*/
 /*------------------------------MAIN-ResultBrinco------------------------------*/
 /*Start mainResultBrinco__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultBrinco__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultBrinco__imgContainer {
   display: flex;
   justify-content: center;
@@ -1389,46 +1000,6 @@ main .mainResultBrinco__imgContainer a .mainResultBrinco__img {
 /*End mainResultBrinco__title class*/
 /*------------------------------MAIN-ResultLottoPlus------------------------------*/
 /*Start mainResultLottoPlus__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultLottoPlus__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultLottoPlus__imgContainer {
   display: flex;
   justify-content: center;
@@ -1446,46 +1017,6 @@ main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
 /*End mainResultLottoPlus__title class*/
 /*------------------------------MAIN-ResultNationalLottery------------------------------*/
 /*Start mainResultNationalLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultNationalLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultNationalLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1503,46 +1034,6 @@ main .mainResultNationalLottery__imgContainer a .mainResultNationalLottery__img 
 /*End mainResultNationalLottery__title class*/
 /*------------------------------MAIN-ResultCityLottery------------------------------*/
 /*Start mainResultCityLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultCityLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultCityLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1560,46 +1051,6 @@ main .mainResultCityLottery__imgContainer a .mainResultCityLottery__img {
 /*End mainResultCityLottery__title class*/
 /*------------------------------MAIN-ResultCordobaLottery------------------------------*/
 /*Start mainResultCordobaLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultCordobaLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultCordobaLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1617,46 +1068,6 @@ main .mainResultCordobaLottery__imgContainer a .mainResultCordobaLottery__img {
 /*End mainResultCordobaLottery__title class*/
 /*------------------------------MAIN-ResultSantaFeLottery------------------------------*/
 /*Start mainResultSantaFeLottery__title class*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .mainResultSantaFeLottery__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PT Serif";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .mainResultSantaFeLottery__imgContainer {
   display: flex;
   justify-content: center;
@@ -1673,46 +1084,6 @@ main .mainResultSantaFeLottery__imgContainer a .mainResultSantaFeLottery__img {
 
 /*End mainResultSantaFeLottery__title class*/
 /*------------------------------MAIN-INSTITUCIONAL------------------------------*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .institutional__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PTSerif-Bold";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .institutional__firstSection {
   margin: 5% 15%;
 }
@@ -1771,46 +1142,6 @@ main main section div .institutional__secondSectionImg1 {
 }
 
 /*------------------------------MAIN-SOPORTE------------------------------*/
-/*Star reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*set root font-size from 16px to 10px and use REM*/
-html {
-  font-size: 62.5%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 451px) and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  html {
-    font-size: 55%;
-  }
-}
-/*End reset*/
-main .soporte__title {
-  width: auto;
-  height: auto;
-  background: url(../multimedia/img/clover.jpg);
-  color: #ffffff;
-  font-family: "PTSerif-Bold";
-  font-size: 5rem;
-  text-align: center;
-  text-shadow: #000000 0.5rem 0.5rem 0.4rem;
-  margin: 1rem 0;
-  padding: 2rem;
-}
 main .soporte__firstSection {
   margin: 5% 15%;
 }
@@ -1867,7 +1198,7 @@ main .soporte__thirdSection .soporte__thirdSectionContainerImg .soporte__thirdSe
 }
 
 /*------------------------------MAIN GALLERY------------------------------*/
-main div .gallery__title {
+main div .gallery__title, main .mainPlayQuini6__title, main .mainPlayBrinco__title, main .mainPlayLottoPlus__title, main .mainPlayNationalLottery__title, main .mainPlayCityLottery__title, main .mainPlayCordobaLottery__title, main .mainPlaySantaFeLottery__title, main .mainResultQuini6__title, main .mainResultBrinco__title, main .mainResultLottoPlus__title, main .mainResultNationalLottery__title, main .mainResultCityLottery__title, main .mainResultCordobaLottery__title, main .mainResultSantaFeLottery__title, main .institutional__title, main .soporte__title {
   width: auto;
   height: auto;
   background: url(../multimedia/img/clover.jpg);
@@ -1879,6 +1210,7 @@ main div .gallery__title {
   margin: 1rem 0;
   padding: 2rem;
 }
+
 main div .gallery__container {
   margin: 2% 5%;
   display: grid;

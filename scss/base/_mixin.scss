@@ -1,0 +1,5 @@
+@mixin textHero ($fuente, $tamano, $grueso){
+    font-family: $fuente;
+    font-size: $tamano;
+    font-weight: $grueso;
+}

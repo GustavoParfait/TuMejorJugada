@@ -1,0 +1,13 @@
+1- Se aumento caracteres en titulo de cada html 
+2- se utilizo h1 y h2 en hero
+3- enlaces internos y externos en nav y footer y main
+4- todas las imagenes tienen completo el Alt
+5- etiquetas semanticas
+7- dis´lay=swap en font
+8- favicon en todos los html con extencion .ico
+9- meta description en cada hatml
+10- meta name="keywords" content="loteria, quiniela nacional, quini 6, brinco, lotto plus, quiniela de cordoba, quiniela de santafe, estadistica, juegos, millonario, resultados, poceada, a primera
+11- open graph en todos los html
+12- se aplico mapa en: los botones que estan en el archivo index.scss
+13: se aplico mixin en: el index.html en la seccion "HERO" en los textos H1, P,H2.
+14 se aplico extend en: los titulos de la mayoria de los html
