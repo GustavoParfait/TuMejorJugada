@@ -10,11 +10,11 @@
 	<meta name="keywords" content="loteria, quiniela nacional, quini 6, brinco, lotto plus, quiniela de cordoba, quiniela de santafe, estadistica, juegos, millonario, resultados, poceada, a primera">
 	
 	<!--Open graph-->
-	<meta property:'og:type' content="Web Site">
-	<meta property:'og:title' content="TuMejorJugada | compra tus boletos oficiales de lotería en línea">
-	<meta property:'og:url' content="https://www.TuMejorJugada.com">
-	<meta property:'og:image' content="https://www.TuMejorJugada.com/logo.png">
-	<meta property:'og:description' content="Somos un servicio de mensajería de boletos de lotería online que brinda a los clientes la oportunidad de jugar a los sorteos de lotería más grandes, con boletos oficiales, y desde cualquier parte del pais">
+	<meta property='og:type' content="Web Site">
+	<meta property='og:title' content="TuMejorJugada | compra tus boletos oficiales de lotería en línea">
+	<meta property='og:url' content="https://www.TuMejorJugada.com">
+	<meta property='og:image' content="https://www.TuMejorJugada.com/logo.png">
+	<meta property='og:description' content="Somos un servicio de mensajería de boletos de lotería online que brinda a los clientes la oportunidad de jugar a los sorteos de lotería más grandes, con boletos oficiales, y desde cualquier parte del pais">
 
 	<!--Start archive style.css-->
 	<link rel="stylesheet" href="css/style.css">
@@ -136,10 +136,59 @@
 		<h2 class="mainPlaySantaFeLottery__title">
 			Quiniela de Santa Fe
 		</h2>
-		<div class="mainPlaySantaFeLottery__imgContainer">
-			<a href="index.html">
-				<img class="mainPlaySantaFeLottery__img" src="multimedia/img/paginaenconstruccion.jpg" alt="pagina en construccion">
-			</a>
+		<div class="mainPlaySantaFeLottery__playZone">
+			<div class="mainPlaySantaFeLottery__playZoneContainer">
+				<div class="mainPlaySantaFeLottery__textContainer">
+					<h3 class="mainPlaySantaFeLottery__text">
+						A la quiniela puede jugar a "UNA CIFRA", "DOS", "TRES" o "CUATROS CIFRAS"
+					</h3>
+				</div>
+				<form>
+					
+					<!--number zone-->
+					<div class="mainPlaySantaFeLottery__numberContainer">
+						<div>
+							<h3 class="mainPlaySantaFeLottery__OneDigitText">Si decea jugar a "UNA CIFRA" ingrese un numero del 0 al 9</h3>
+							<input class="mainPlaySantaFeLottery__OneDigitNumber" type="number" name="numero" id="numero" placeholder="0">
+						</div>
+						<div>
+							<h3 class="mainPlaySantaFeLottery__TwoDigitText">Si decea jugar a "DOS CIFRA" ingrese un numero del 00 al 99</h3>
+							<input class="mainPlaySantaFeLottery__TwoDigitNumber" type="number" name="numero" id="numero" placeholder="00">
+						</div>
+						<div>
+							<h3 class="mainPlaySantaFeLottery__ThreeDigitText">Si decea jugar a "TRES CIFRA" ingrese un numero del 000 al 999</h3>
+							<input class="mainPlaySantaFeLottery__ThreeDigitNumber" type="number" name="numero" id="numero" placeholder="000">
+						</div>
+						<div>
+							<h3 class="mainPlaySantaFeLottery__FourDigitText">Si decea jugar a "CUATRO CIFRA" ingrese un numero del 0000 al 9999</h3>
+							<input class="mainPlaySantaFeLottery__FourDigitNumber" type="number" name="numero" id="numero" placeholder="0000">
+						</div>
+					</div>
+
+				 	<!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content playSantaFeLottery__modalContainer">
+								<div class="playSantaFeLottery__modalBG1">
+									<h3 class="modal-title playSantaFeLottery__modalText1" id="staticBackdropLabel">
+										Felicitaciones
+									</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body playSantaFeLottery__modalBG2">
+									<h3 class="playSantaFeLottery__modalText2">Su jugada se realizo con exito</h3>
+								</div>
+								<div class="playSantaFeLottery__modalBG3">
+									<button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+				<button type="button" class="btn button__primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					JUGAR
+				</button>
+			</div>
 		</div>
 	</main>
 	<!--End main zone-->

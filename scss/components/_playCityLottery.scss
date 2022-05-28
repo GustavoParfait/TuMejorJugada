@@ -6,19 +6,267 @@ main{
     .mainPlayCityLottery__title{
         @extend %title;
     }
-    .mainPlayCityLottery__imgContainer{
+    .mainPlayCityLottery__playZone{
         display: flex;
-        justify-content: center;
         align-items: center;
         width: auto;
-        height: 50em;
-        background: url(../multimedia/img/matrixGif.gif);
-        a{
-            .mainPlayCityLottery__img{
-                border-radius: 1em;
-                width: auto;
-                height: 30em;
+        height: 60em;
+        background: url(../multimedia/img/bgPlay.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .mainPlayCityLottery__playZoneContainer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+            width: 50em;
+            height: 50em;
+            background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../multimedia/img/cityLotteri.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border: #E2001A 0.5em solid;
+
+            .mainPlayCityLottery__textContainer{
+                width: 40em;
+                height: auto;
+                color: #fff;
+
+                .mainPlayCityLottery__text{
+                    text-align: center;
+                }
             }
+            form{
+                .mainPlayCityLottery__numberContainer{
+                    background-color: rgba(0, 0, 0, 0.233);
+                    padding: 1.5em 0;
+                    width: 45em;
+                    height: 30em;
+                    
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .mainPlayCityLottery__OneDigitText{
+                            color: #fff;
+                            font-size: 1.2rem;
+                            height: auto;
+                        }
+    
+                        .mainPlayCityLottery__OneDigitNumber{
+                            text-align: center;
+                            font-size: 3rem;
+                            font-weight: 700;
+                            width: 2em;
+                            height: 1.5em;
+                            margin: 0.05em;
+    
+                            &::-webkit-outer-spin-button, 
+                            &::-webkit-inner-spin-button{
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+    
+                            &:focus{
+                                color: #fff;
+                                background-color: #e2001abe;
+                            }
+    
+                            &::after{
+                                background-color: #b3ff50be;
+                            }
+                        }
+                    }
+
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .mainPlayCityLottery__TwoDigitText{
+                            color: #fff;
+                            font-size: 1.2rem;
+                            height: auto;
+                        }
+    
+                        .mainPlayCityLottery__TwoDigitNumber{
+                            text-align: center;
+                            font-size: 3rem;
+                            font-weight: 700;
+                            width: 2.5em;
+                            height: 1.5em;
+                            margin: 0.05em;
+    
+                            &::-webkit-outer-spin-button, 
+                            &::-webkit-inner-spin-button{
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+    
+                            &:focus{
+                                color: #fff;
+                                background-color: #e2001abe;
+                            }
+    
+                            &::after{
+                                background-color: #b3ff50be;
+                            }
+                        }
+                    }
+                    
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .mainPlayCityLottery__ThreeDigitText{
+                            color: #fff;
+                            font-size: 1.2rem;
+                            height: auto;
+                        }
+    
+                        .mainPlayCityLottery__ThreeDigitNumber{
+                            text-align: center;
+                            font-size: 3rem;
+                            font-weight: 700;
+                            width: 3em;
+                            height: 1.5em;
+                            margin: 0.05em;
+    
+                            &::-webkit-outer-spin-button, 
+                            &::-webkit-inner-spin-button{
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+    
+                            &:focus{
+                                color: #fff;
+                                background-color: #e2001abe;
+                            }
+    
+                            &::after{
+                                background-color: #b3ff50be;
+                            }
+                        }
+                    }
+
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .mainPlayCityLottery__FourDigitText{
+                            color: #fff;
+                            font-size: 1.2rem;
+                            height: auto;
+                        }
+    
+                        .mainPlayCityLottery__FourDigitNumber{
+                            text-align: center;
+                            font-size: 3rem;
+                            font-weight: 700;
+                            width: 3.5em;
+                            height: 1.5em;
+                            margin: 0.05em;
+    
+                            &::-webkit-outer-spin-button, 
+                            &::-webkit-inner-spin-button{
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+    
+                            &:focus{
+                                color: #fff;
+                                background-color: #e2001abe;
+                            }
+    
+                            &::after{
+                                background-color: #b3ff50be;
+                            }
+                        }
+                    }
+                }
+                div{
+                    div{
+                        .playCityLottery__modalContainer{
+                            .playCityLottery__modalBG1{
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 1rem 1rem;
+                                background: #035397;
+                                text-shadow: .2em .3em .4em black;
+
+                                .playCityLottery__modalText1{
+                                    font-size: 3rem;
+                                    color: #fff;
+                                    font-weight: 500;
+                                }
+                                button{
+                                    background-color: #ffffff;
+                                }
+                            }
+                            .playCityLottery__modalBG2{
+                                background-color: #e8630a;
+                                align-items: center;
+                                font-size: 2rem;
+
+                                .playCityLottery__modalText2{
+                                    display: table;
+                                    margin: 0 auto;
+                                    color: #fff;
+                                    font-size: 2rem;
+                                    font-weight: 700;
+                                    text-shadow: .1em .1em .15em #000;
+                                }
+                            }
+                            .playCityLottery__modalBG3{
+                                display: flex;
+                                justify-content: flex-end;
+                                padding: 1rem;
+                                background-color: #fcda00;
+                            }
+                        }
+                    }
+                }
+            }
+            .button__primary{
+                display: block;
+                box-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
+                border-radius: .8rem;
+                font-family: "PTSerif-Bold";
+                text-shadow: rgb(20 20 20 / 40%) .1rem .2rem .2rem;
+                text-align: center;
+                font-size: 1.4rem;
+                color: #fff;
+                text-decoration: none;
+                width: 10.7rem;
+                height: 3rem;
+                padding: .5rem;
+                background-color: #ff6f23;
+                cursor: pointer;
+                margin-bottom: 5rem;
+
+                &:hover{
+                    text-shadow: rgb(20 20 20 / 40%) .2rem .3rem .3rem;
+                    box-shadow: rgb(20 20 20 / 40%) .2rem .3rem .3rem;
+                    background-color: #76be18;
+                    border-radius: 1rem;
+                    display: block;
+                    font-size: 1.6rem;
+                    width: 11.7rem;
+                    height: 4rem;
+                    padding: .8rem;
+                    transition: all .5s;
+                }
+            }    
         }
     }
 }

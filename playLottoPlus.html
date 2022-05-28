@@ -10,11 +10,11 @@
 	<meta name="keywords" content="loteria, quiniela nacional, quini 6, brinco, lotto plus, quiniela de cordoba, quiniela de santafe, estadistica, juegos, millonario, resultados, poceada, a primera">
 	
 	<!--Open graph-->
-	<meta property:'og:type' content="Web Site">
-	<meta property:'og:title' content="TuMejorJugada | compra tus boletos oficiales de lotería en línea">
-	<meta property:'og:url' content="https://www.TuMejorJugada.com">
-	<meta property:'og:image' content="https://www.TuMejorJugada.com/logo.png">
-	<meta property:'og:description' content="Somos un servicio de mensajería de boletos de lotería online que brinda a los clientes la oportunidad de jugar a los sorteos de lotería más grandes, con boletos oficiales, y desde cualquier parte del pais">
+	<meta property='og:type' content="Web Site">
+	<meta property='og:title' content="TuMejorJugada | compra tus boletos oficiales de lotería en línea">
+	<meta property='og:url' content="https://www.TuMejorJugada.com">
+	<meta property='og:image' content="https://www.TuMejorJugada.com/logo.png">
+	<meta property='og:description' content="Somos un servicio de mensajería de boletos de lotería online que brinda a los clientes la oportunidad de jugar a los sorteos de lotería más grandes, con boletos oficiales, y desde cualquier parte del pais">
 
 	<!--Start archive style.css-->
 	<link rel="stylesheet" href="css/style.css">
@@ -134,12 +134,54 @@
 	<!--Start main zone-->
 	<main class="mainPlayLottoPlus">
 		<h2 class="mainPlayLottoPlus__title">
-			Lotto Plus
+			Loto Plus
 		</h2>
-		<div class="mainPlayLottoPlus__imgContainer">
-			<a href="index.html">
-				<img class="mainPlayLottoPlus__img" src="multimedia/img/paginaenconstruccion.jpg" alt="pagina en construccion">
-			</a>
+		<div class="mainPlayLotoPlus__playZone">
+			<div class="mainPlayLotoPlus__playZoneContainer">
+				<div class="mainPlayLotoPlus__textContainer">
+					<h3 class="mainPlayLotoPlus__text">
+						Ingrese 6 numeros de 2 digitos cada uno del 00 al 41 mas 2 numeros extras del 0 al 9 denominados "jackpot", por ejemplo: 00-01-10-25-37-40 / 2-8
+					</h3>
+				</div>
+				<form>
+					<!--number zone-->
+					<div class="mainPlayLotoPlus__numberContainer1">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number1" type="number" name="numero" id="numero" placeholder="00">
+					</div>
+					<div class="mainPlayLotoPlus__numberContainer2">
+						<input class="mainPlayLotoPlus__number2" type="number" name="numero" id="numero" placeholder="00">
+						<input class="mainPlayLotoPlus__number2" type="number" name="numero" id="numero" placeholder="00">
+					</div>
+
+				 	<!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content playLotoPlus__modalContainer">
+								<div class="playLotoPlus__modalBG1">
+									<h3 class="modal-title playLotoPlus__modalText1" id="staticBackdropLabel">
+										Felicitaciones
+									</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body playLotoPlus__modalBG2">
+									<h3 class="playLotoPlus__modalText2">Su jugada se realizo con exito</h3>
+								</div>
+								<div class="playLotoPlus__modalBG3">
+									<button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+				<button type="button" class="btn button__primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					JUGAR
+				</button>
+			</div>
 		</div>
 	</main>
 	<!--End main zone-->

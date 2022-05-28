@@ -85,6 +85,9 @@ header .headerSectionFirst .titleContainer a img {
     width: 24em;
   }
 }
+header .headerSectionFirst .headerSectionFirst__userZone div {
+  margin-top: 1em;
+}
 header .headerSectionFirst .headerSectionFirst__userZone div .avatar {
   width: 6em;
   height: auto;
@@ -93,6 +96,12 @@ header .headerSectionFirst .headerSectionFirst__userZone div .avatar {
 @media (max-width: 450px) {
   header .headerSectionFirst .headerSectionFirst__userZone div .avatar {
     width: 4em;
+    margin: 0 7em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  header .headerSectionFirst .headerSectionFirst__userZone div .avatar {
+    margin-left: 7em;
   }
 }
 header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn {
@@ -111,14 +120,14 @@ header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLo
     margin-left: 30px;
   }
 }
-header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li .userZone__checkIn {
+header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li a {
   text-decoration: none;
   font-family: "PTSerif-Bold";
   font-size: 1.3rem;
   color: #ECECEC;
   padding: 0.5rem;
 }
-header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li .userZone__checkIn:hover {
+header .headerSectionFirst .headerSectionFirst__userZone .userZone__checkInAndLogIn li a:hover {
   color: chocolate;
   transition: 1s;
 }
@@ -211,17 +220,17 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 }
 @media (max-width: 450px) {
   .bodyGridContainer main .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
-@media (min-width: 601px) and (max-width: 960px) {
+@media (min-width: 451px) and (max-width: 600px) {
   .bodyGridContainer main .hero h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
   .bodyGridContainer main .hero h1 {
-    font-size: 10px;
+    font-size: 3rem;
   }
 }
 .bodyGridContainer main .hero p {
@@ -756,9 +765,6 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
   font-size: 1.6rem;
 }
 .mainCheckIn div .formCheckIn .formCheckIn__button:hover {
-  background-color: #2868f3;
-}
-.mainCheckIn div .formCheckIn .formCheckIn__button:hover {
   background-color: #1b3e8b;
 }
 .mainCheckIn div .formCheckIn .formCheckIn__logInContainer {
@@ -848,119 +854,1273 @@ header .bg-new div div ul li .dropdown-menu li .dropdown-item {
 
 /*------------------------------MAIN-playQuini6------------------------------*/
 /*Start mainPlayQuini6__title class*/
-main .mainPlayQuini6__imgContainer {
+main .mainPlayQuini6__playZone {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-main .mainPlayQuini6__imgContainer a .mainPlayQuini6__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/bgQuini6Play.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer .mainPlayQuini6__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer .mainPlayQuini6__textContainer .mainPlayQuini6__text {
+  text-align: center;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form .mainPlayQuini6__numberContainer .mainPlayQuini6__number {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 2em;
+  margin: 0.05em;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form .mainPlayQuini6__numberContainer .mainPlayQuini6__number::-webkit-outer-spin-button, main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form .mainPlayQuini6__numberContainer .mainPlayQuini6__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form .mainPlayQuini6__numberContainer .mainPlayQuini6__number:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form .mainPlayQuini6__numberContainer .mainPlayQuini6__number::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG1 .playQuini6__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG2 .playQuini6__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer form div div .playQuini6__modalContainer .playQuini6__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayQuini6__playZone .mainPlayQuini6__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
 /*End mainPlayQuini6__title class*/
 /*------------------------------MAIN-playBrinco------------------------------*/
-main .mainPlayBrinco__imgContainer {
+main .mainPlayBrinco__playZone {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-main .mainPlayBrinco__imgContainer a .mainPlayBrinco__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/bgBrincoPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer .mainPlayBrinco__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer .mainPlayBrinco__textContainer .mainPlayBrinco__text {
+  text-align: center;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form .mainPlayBrinco__numberContainer .mainPlayBrinco__number {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 2em;
+  margin: 0.05em;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form .mainPlayBrinco__numberContainer .mainPlayBrinco__number::-webkit-outer-spin-button, main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form .mainPlayBrinco__numberContainer .mainPlayBrinco__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form .mainPlayBrinco__numberContainer .mainPlayBrinco__number:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form .mainPlayBrinco__numberContainer .mainPlayBrinco__number::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG1 .playBrinco__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG2 .playBrinco__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer form div div .playBrinco__modalContainer .playBrinco__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayBrinco__playZone .mainPlayBrinco__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
+/*End mainPlayQuini6__title class*/
 /*End mainPlayBrinco__title class*/
 /*------------------------------MAIN-playLottoPlus------------------------------*/
 /*Start mainPlayLottoPlus__title class*/
-main .mainPlayLottoPlus__imgContainer {
+main .mainPlayLotoPlus__playZone {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-main .mainPlayLottoPlus__imgContainer a .mainPlayLottoPlus__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/bgLotoPlusPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer .mainPlayLotoPlus__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer .mainPlayLotoPlus__textContainer .mainPlayLotoPlus__text {
+  text-align: center;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer1 .mainPlayLotoPlus__number1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 2em;
+  margin: 0.05em;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer1 .mainPlayLotoPlus__number1::-webkit-outer-spin-button, main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer1 .mainPlayLotoPlus__number1::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer1 .mainPlayLotoPlus__number1:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer2 .mainPlayLotoPlus__number2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 2em;
+  margin: 0.05em;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer2 .mainPlayLotoPlus__number2::-webkit-outer-spin-button, main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer2 .mainPlayLotoPlus__number2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form .mainPlayLotoPlus__numberContainer2 .mainPlayLotoPlus__number2:focus {
+  color: #fff;
+  background-color: rgba(128, 226, 0, 0.7450980392);
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG1 .playLotoPlus__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG2 .playLotoPlus__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer form div div .playLotoPlus__modalContainer .playLotoPlus__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayLotoPlus__playZone .mainPlayLotoPlus__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
-/*End mainPlayLottoPlus__title class*/
+/*End mainPlayLotoPlus__title class*/
 /*------------------------------MAIN-playNationalLottery------------------------------*/
 /*Start mainPlayNationalLottery__title class*/
-main .mainPlayNationalLottery__imgContainer {
+main .mainPlayNationalLottery__playZone {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/nationalLottery.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer .mainPlayNationalLottery__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer .mainPlayNationalLottery__textContainer .mainPlayNationalLottery__text {
+  text-align: center;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer {
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 1.5em 0;
+  width: 45em;
+  height: 30em;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  flex-direction: column;
 }
-main .mainPlayNationalLottery__imgContainer a .mainPlayNationalLottery__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitNumber::-webkit-outer-spin-button, main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__OneDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitNumber::-webkit-outer-spin-button, main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__TwoDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitNumber::-webkit-outer-spin-button, main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__ThreeDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitNumber::-webkit-outer-spin-button, main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form .mainPlayNationalLottery__numberContainer div .mainPlayNationalLottery__FourDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG1 .playNationalLottery__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG2 .playNationalLottery__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer form div div .playNationalLottery__modalContainer .playNationalLottery__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayNationalLottery__playZone .mainPlayNationalLottery__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
 /*End mainPlayNationalLottery__title class*/
 /*------------------------------MAIN-playCityLottery------------------------------*/
 /*Start mainPlayCityLottery__title class*/
-main .mainPlayCityLottery__imgContainer {
+main .mainPlayCityLottery__playZone {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/cityLotteri.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer .mainPlayCityLottery__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer .mainPlayCityLottery__textContainer .mainPlayCityLottery__text {
+  text-align: center;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer {
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 1.5em 0;
+  width: 45em;
+  height: 30em;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  flex-direction: column;
 }
-main .mainPlayCityLottery__imgContainer a .mainPlayCityLottery__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitNumber::-webkit-outer-spin-button, main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__OneDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitNumber::-webkit-outer-spin-button, main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__TwoDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitNumber::-webkit-outer-spin-button, main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__ThreeDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitNumber::-webkit-outer-spin-button, main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form .mainPlayCityLottery__numberContainer div .mainPlayCityLottery__FourDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG1 .playCityLottery__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG2 .playCityLottery__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer form div div .playCityLottery__modalContainer .playCityLottery__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayCityLottery__playZone .mainPlayCityLottery__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
 /*End mainPlayCityLottery__title class*/
 /*------------------------------MAIN-playCordobaLottery------------------------------*/
 /*Start mainPlayCordobaLottery__title class*/
-main .mainPlayCordobaLottery__imgContainer {
+main .mainPlayCordobaLottery__playZone {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/bgCordobaLotteryPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer .mainPlayCordobaLottery__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer .mainPlayCordobaLottery__textContainer .mainPlayCordobaLottery__text {
+  text-align: center;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer {
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 1.5em 0;
+  width: 45em;
+  height: 30em;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  flex-direction: column;
 }
-main .mainPlayCordobaLottery__imgContainer a .mainPlayCordobaLottery__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitNumber::-webkit-outer-spin-button, main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__OneDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitNumber::-webkit-outer-spin-button, main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__TwoDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitNumber::-webkit-outer-spin-button, main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__ThreeDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitNumber::-webkit-outer-spin-button, main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form .mainPlayCordobaLottery__numberContainer div .mainPlayCordobaLottery__FourDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG1 .playCordobaLottery__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG2 .playCordobaLottery__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer form div div .playCordobaLottery__modalContainer .playCordobaLottery__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlayCordobaLottery__playZone .mainPlayCordobaLottery__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
 /*End mainPlayCordobaLottery__title class*/
 /*------------------------------MAIN-playSantaFeLottery------------------------------*/
 /*Start mainPlaySantaFeLottery__title class*/
-main .mainPlaySantaFeLottery__imgContainer {
+main .mainPlaySantaFeLottery__playZone {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 60em;
+  background: url(../multimedia/img/bgPlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../multimedia/img/bgSantaFePlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #E2001A 0.5em solid;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer .mainPlaySantaFeLottery__textContainer {
+  width: 40em;
+  height: auto;
+  color: #fff;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer .mainPlaySantaFeLottery__textContainer .mainPlaySantaFeLottery__text {
+  text-align: center;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer {
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 1.5em 0;
+  width: 45em;
+  height: 30em;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  flex-direction: column;
 }
-main .mainPlaySantaFeLottery__imgContainer a .mainPlaySantaFeLottery__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitNumber::-webkit-outer-spin-button, main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__OneDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 2.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitNumber::-webkit-outer-spin-button, main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__TwoDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitNumber::-webkit-outer-spin-button, main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__ThreeDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitText {
+  color: #fff;
+  font-size: 1.2rem;
+  height: auto;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitNumber {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 3.5em;
+  height: 1.5em;
+  margin: 0.05em;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitNumber::-webkit-outer-spin-button, main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitNumber:focus {
+  color: #fff;
+  background-color: rgba(226, 0, 26, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form .mainPlaySantaFeLottery__numberContainer div .mainPlaySantaFeLottery__FourDigitNumber::after {
+  background-color: rgba(179, 255, 80, 0.7450980392);
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: #035397;
+  text-shadow: 0.2em 0.3em 0.4em black;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG1 .playSantaFeLottery__modalText1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG1 button {
+  background-color: #ffffff;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG2 {
+  background-color: #e8630a;
+  align-items: center;
+  font-size: 2rem;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG2 .playSantaFeLottery__modalText2 {
+  display: table;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer form div div .playSantaFeLottery__modalContainer .playSantaFeLottery__modalBG3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #fcda00;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer .button__primary {
+  display: block;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  font-family: "PTSerif-Bold";
+  text-shadow: rgba(20, 20, 20, 0.4) 0.1rem 0.2rem 0.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  width: 10.7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #ff6f23;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+main .mainPlaySantaFeLottery__playZone .mainPlaySantaFeLottery__playZoneContainer .button__primary:hover {
+  text-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  box-shadow: rgba(20, 20, 20, 0.4) 0.2rem 0.3rem 0.3rem;
+  background-color: #76be18;
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.6rem;
+  width: 11.7rem;
+  height: 4rem;
+  padding: 0.8rem;
+  transition: all 0.5s;
 }
 
 /*End mainPlaySantaFeLottery__title class*/
@@ -971,13 +2131,52 @@ main .mainResultQuini6__imgContainer {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 100em;
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 450px) {
+  main .mainResultQuini6__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultQuini6__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultQuini6__imgContainer {
+    width: auto;
+    height: 70em;
+  }
 }
 main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
   border-radius: 1em;
   width: auto;
-  height: 30em;
+  height: 90em;
+}
+@media (max-width: 450px) {
+  main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
+    width: 45em;
+    height: 45em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultQuini6__imgContainer a .mainResultQuini6__img {
+    width: auto;
+    height: 60em;
+  }
 }
 
 /*End mainResultQuini6__title class*/
@@ -988,13 +2187,52 @@ main .mainResultBrinco__imgContainer {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 70em;
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-main .mainResultBrinco__imgContainer a .mainResultBrinco__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+@media (max-width: 450px) {
+  main .mainResultBrinco__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultBrinco__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultBrinco__imgContainer {
+    width: auto;
+    height: 70em;
+  }
+}
+main .mainResultBrinco__imgContainer .mainResultBrinco__img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+}
+@media (max-width: 450px) {
+  main .mainResultBrinco__imgContainer .mainResultBrinco__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultBrinco__imgContainer .mainResultBrinco__img {
+    width: 45em;
+    height: 45em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultBrinco__imgContainer .mainResultBrinco__img {
+    width: auto;
+    height: 55em;
+  }
 }
 
 /*End mainResultBrinco__title class*/
@@ -1005,13 +2243,52 @@ main .mainResultLottoPlus__imgContainer {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  height: 90em;
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 450px) {
+  main .mainResultLottoPlus__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultLottoPlus__imgContainer {
+    width: auto;
+    height: 50em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultLottoPlus__imgContainer {
+    width: auto;
+    height: 60em;
+  }
 }
 main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
-  border-radius: 1em;
-  width: auto;
-  height: 30em;
+  height: auto;
+  width: 90em;
+  margin-bottom: 1em;
+}
+@media (max-width: 450px) {
+  main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
+    width: 45em;
+    height: 45em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  main .mainResultLottoPlus__imgContainer a .mainResultLottoPlus__img {
+    width: auto;
+    height: 45em;
+  }
 }
 
 /*End mainResultLottoPlus__title class*/
@@ -1023,12 +2300,27 @@ main .mainResultNationalLottery__imgContainer {
   align-items: center;
   width: auto;
   height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main .mainResultNationalLottery__imgContainer a .mainResultNationalLottery__img {
   border-radius: 1em;
   width: auto;
-  height: 30em;
+  height: 40em;
+}
+@media (max-width: 450px) {
+  main .mainResultNationalLottery__imgContainer a .mainResultNationalLottery__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultNationalLottery__imgContainer a .mainResultNationalLottery__img {
+    width: 45em;
+    height: 45em;
+  }
 }
 
 /*End mainResultNationalLottery__title class*/
@@ -1040,12 +2332,27 @@ main .mainResultCityLottery__imgContainer {
   align-items: center;
   width: auto;
   height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main .mainResultCityLottery__imgContainer a .mainResultCityLottery__img {
   border-radius: 1em;
   width: auto;
-  height: 30em;
+  height: 40em;
+}
+@media (max-width: 450px) {
+  main .mainResultCityLottery__imgContainer a .mainResultCityLottery__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultCityLottery__imgContainer a .mainResultCityLottery__img {
+    width: 45em;
+    height: 45em;
+  }
 }
 
 /*End mainResultCityLottery__title class*/
@@ -1057,12 +2364,27 @@ main .mainResultCordobaLottery__imgContainer {
   align-items: center;
   width: auto;
   height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main .mainResultCordobaLottery__imgContainer a .mainResultCordobaLottery__img {
   border-radius: 1em;
   width: auto;
-  height: 30em;
+  height: 40em;
+}
+@media (max-width: 450px) {
+  main .mainResultCordobaLottery__imgContainer a .mainResultCordobaLottery__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultCordobaLottery__imgContainer a .mainResultCordobaLottery__img {
+    width: 45em;
+    height: 45em;
+  }
 }
 
 /*End mainResultCordobaLottery__title class*/
@@ -1074,12 +2396,27 @@ main .mainResultSantaFeLottery__imgContainer {
   align-items: center;
   width: auto;
   height: 50em;
-  background: url(../multimedia/img/matrixGif.gif);
+  margin-bottom: 1em;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../multimedia/img/background-Resultado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main .mainResultSantaFeLottery__imgContainer a .mainResultSantaFeLottery__img {
   border-radius: 1em;
   width: auto;
-  height: 30em;
+  height: 40em;
+}
+@media (max-width: 450px) {
+  main .mainResultSantaFeLottery__imgContainer a .mainResultSantaFeLottery__img {
+    width: 40em;
+    height: 40em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  main .mainResultSantaFeLottery__imgContainer a .mainResultSantaFeLottery__img {
+    width: 45em;
+    height: 45em;
+  }
 }
 
 /*End mainResultSantaFeLottery__title class*/
@@ -1322,6 +2659,21 @@ main div .gallery__container .gallery__img1Container {
   width: 60rem;
   margin: 0 auto;
 }
+@media (max-width: 450px) {
+  .footerContainer .lineOne {
+    width: 48rem;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .footerContainer .lineOne {
+    width: 50rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .footerContainer .lineOne {
+    width: 60rem;
+  }
+}
 .footerContainer .otherWebsites {
   display: flex;
   justify-content: center;
@@ -1333,10 +2685,42 @@ main div .gallery__container .gallery__img1Container {
   width: auto;
   height: 4em;
 }
+@media (max-width: 450px) {
+  .footerContainer .otherWebsites img {
+    margin: 0.5em;
+    height: 3em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .footerContainer .otherWebsites img {
+    margin: 0.2em;
+    height: 3.5em;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .footerContainer .otherWebsites img {
+    margin: 1em;
+  }
+}
 .footerContainer .lineTwo {
   display: block;
   width: 81rem;
   margin: 0 auto;
+}
+@media (max-width: 450px) {
+  .footerContainer .lineTwo {
+    width: 48rem;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .footerContainer .lineTwo {
+    width: 50rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .footerContainer .lineTwo {
+    width: 65rem;
+  }
 }
 .footerContainer .firtsFooterText {
   display: flex;
@@ -1349,6 +2733,21 @@ main div .gallery__container .gallery__img1Container {
   text-align: center;
   margin: 1rem auto;
 }
+@media (max-width: 450px) {
+  .footerContainer .firtsFooterText {
+    width: 44rem;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .footerContainer .firtsFooterText {
+    width: 50rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .footerContainer .firtsFooterText {
+    width: 65rem;
+  }
+}
 .footerContainer .secondFooterText {
   display: flex;
   justify-content: center;
@@ -1359,6 +2758,21 @@ main div .gallery__container .gallery__img1Container {
   font-size: 1.1rem;
   text-align: center;
   margin: 1rem auto;
+}
+@media (max-width: 450px) {
+  .footerContainer .secondFooterText {
+    width: 43em;
+  }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+  .footerContainer .secondFooterText {
+    width: 50rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .footerContainer .secondFooterText {
+    width: 60rem;
+  }
 }
 .footerContainer .thirdFooterText {
   display: flex;
@@ -1373,64 +2787,15 @@ main div .gallery__container .gallery__img1Container {
   margin: 1rem;
 }
 @media (max-width: 450px) {
-  .footerContainer footer .lineOne {
-    width: 48rem;
-  }
-  .footerContainer footer .otherWebsites img {
-    margin: 0.5em;
-    height: 3em;
-  }
-  .footerContainer footer .lineTwo {
-    width: 48rem;
-  }
-  .footerContainer footer .firtsFooterText {
-    width: 44rem;
-  }
-  .footerContainer footer .secondFooterText {
-    width: 43em;
-  }
-  .footerContainer footer .thirdFooterText {
+  .footerContainer .thirdFooterText img {
     width: 2em;
     height: auto;
   }
 }
 @media (min-width: 451px) and (max-width: 600px) {
-  .footerContainer footer .lineOne {
-    width: 50rem;
-  }
-  .footerContainer footer .otherWebsites img {
-    margin: 0.2em;
-    height: 3.5em;
-  }
-  .footerContainer footer .lineTwo {
-    width: 50rem;
-  }
-  .footerContainer footer .firtsFooterText {
-    width: 50rem;
-  }
-  .footerContainer footer .secondFooterText {
-    width: 50rem;
-  }
-  .footerContainer footer .thirdFooterText img {
+  .footerContainer .thirdFooterText img {
     width: 2em;
     height: auto;
-  }
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  .footerContainer footer .lineOne {
-    width: 60rem;
-  }
-  .footerContainer footer .otherWebsites img {
-    margin: 1em;
-  }
-  .footerContainer footer .lineTwo {
-    width: 65rem;
-  }
-  .footerContainer footer .firtsFooterText {
-    width: 65rem;
-  }
-  .footerContainer footer .secondFooterText {
-    width: 60rem;
   }
 }
 
